@@ -1,5 +1,5 @@
 {
-  "$comment": "SEED DATASET — replace with the full supplied developers.json (brief §5/§12/§14). Only facts pinned by the brief are present: the 26 slugs/names/ranks/segments (§14) and the Emaar worked example (Appendix A) minus its '<verify>' fields. Nothing here is fabricated; missing fields are omitted, never guessed. Hero images point at swappable placeholder art (§12).",
+  "$comment": "Real, researched dataset (July 2026) compiled from official developer websites, Dubai Media Office / DLD announcements and corroborating market sources. Prices, handover dates and payment plans are included only where published by the developer or a reliable current source; absent fields are unverified, never guessed (brief SS12). Hero imagery is swappable placeholder art (SS12).",
   "developers": [
     {
       "slug": "emaar-properties",
@@ -7,9 +7,8 @@
       "rank": 1,
       "segment": "master",
       "founded": "1997",
-      "headline": "The developer behind Dubai's skyline.",
-      "description": "Emaar is Dubai's largest developer and the master-planner of Downtown Dubai, home to the Burj Khalifa. Its communities span the city from the marina to the desert, and are known for build quality, deep resale liquidity, and integrated amenities.",
-      "heroImage": "/img/placeholders/developer.svg",
+      "headline": "The developer behind Burj Khalifa and Downtown Dubai.",
+      "description": "Founded in 1997 and listed on the Dubai Financial Market, Emaar Properties is the emirate's largest listed developer and the company behind some of its most recognisable landmarks, including Burj Khalifa, Dubai Mall and the Downtown Dubai district. In February 2026 it reported record 2025 property sales of AED 80.4 billion across 48 new residential launches, underlining its dominant market position.\n\nEmaar builds at master-community scale: Dubai Hills Estate, Dubai Creek Harbour, Arabian Ranches, Emaar Beachfront and Emaar South are all its projects. Its current pipeline is led by The Oasis, a roughly 100-million-square-foot villa community in Dubailand, alongside waterfront launches at Rashid Yachts & Marina and golf-district apartments in Emaar South.",
       "website": "https://www.emaar.com",
       "projects": [
         {
@@ -19,38 +18,3239 @@
           "area": "Downtown Dubai",
           "areaSlug": "downtown-dubai",
           "status": "ready",
-          "unitTypes": ["1 Bedroom", "2 Bedroom", "3 Bedroom", "Penthouse"],
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
           "handover": "Ready",
-          "description": "Emaar's flagship district, anchored by the Burj Khalifa and Dubai Opera, with branded residences and Address hotels around the fountain.",
-          "heroImage": "/img/placeholders/project.svg",
-          "featured": true
+          "description": "Emaar's flagship mixed-use district, home to Burj Khalifa, Dubai Mall and the Dubai Fountain. The established core is fully delivered and remains one of the city's most liquid apartment markets, while Emaar continues to release new towers on remaining plots.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "dubai-hills-estate",
+          "name": "Dubai Hills Estate",
+          "developerSlug": "emaar-properties",
+          "area": "Dubai Hills Estate",
+          "areaSlug": "dubai-hills-estate",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Townhouse",
+            "Villa",
+            "Penthouse"
+          ],
+          "handover": "Ready",
+          "description": "A large green master community built around an 18-hole championship golf course and Dubai Hills Mall, developed jointly with Meraas. Most residential districts, schools and parks are delivered and occupied, making it one of Dubai's most established family addresses.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "dubai-creek-harbour",
+          "name": "Dubai Creek Harbour",
+          "developerSlug": "emaar-properties",
+          "area": "Dubai Creek Harbour",
+          "areaSlug": "dubai-creek-harbour",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "A waterfront master development on Dubai Creek facing the Ras Al Khor wildlife sanctuary, planned as a high-density skyline district with a marina and extensive promenades. Early residential districts such as Creek Beach and Creek Island are handed over, while many towers remain under construction.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "arabian-ranches",
+          "name": "Arabian Ranches",
+          "developerSlug": "emaar-properties",
+          "area": "Arabian Ranches",
+          "areaSlug": "arabian-ranches",
+          "status": "ready",
+          "unitTypes": [
+            "Villa",
+            "Townhouse"
+          ],
+          "handover": "Ready",
+          "description": "One of Dubai's original suburban villa communities, delivered in phases since the early 2000s around a golf club and polo grounds. The first two phases are fully established, and the concept has been extended with the newer Arabian Ranches III district.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "emaar-beachfront",
+          "name": "Emaar Beachfront",
+          "developerSlug": "emaar-properties",
+          "area": "Dubai Harbour",
+          "areaSlug": "dubai-harbour",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "A private island-style apartment district within Dubai Harbour, positioned between Palm Jumeirah and Dubai Marina with beach access on both sides. Several towers have been handed over while later releases are still being built.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "the-oasis-by-emaar",
+          "name": "The Oasis",
+          "developerSlug": "emaar-properties",
+          "area": "Dubailand",
+          "areaSlug": "dubailand",
+          "status": "off-plan",
+          "unitTypes": [
+            "Villa"
+          ],
+          "description": "Emaar's largest current master development, a roughly 100-million-square-foot villa community planned around lagoons, canals and green corridors. Launched in 2023, it is being released in phases of large four- to six-bedroom villas and mansions, with early phases now in construction and new clusters still launching off-plan.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "golf-vale-emaar-south",
+          "name": "Golf Vale",
+          "developerSlug": "emaar-properties",
+          "area": "Dubai South",
+          "areaSlug": "dubai-south",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Townhouse"
+          ],
+          "priceFromAED": 1100000,
+          "handover": "Q1 2030",
+          "paymentPlan": "80/20",
+          "description": "A golf-course-facing launch within the Emaar South master community near Al Maktoum International Airport. It offers one- to three-bedroom apartments and three-bedroom townhouses on a construction-linked payment plan.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "fior-rashid-yachts-marina",
+          "name": "Fior at Rashid Yachts & Marina",
+          "developerSlug": "emaar-properties",
+          "area": "Mina Rashid",
+          "areaSlug": "mina-rashid",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 2210000,
+          "handover": "Q3 2030",
+          "paymentPlan": "80/20",
+          "description": "A low-rise marina-front apartment building within Emaar's Rashid Yachts & Marina district at the historic Mina Rashid port. Residences overlook the superyacht marina and a 500-metre canal pool, with one- to three-bedroom layouts.",
+          "heroImage": "/img/placeholders/project.svg"
         }
-      ]
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
     },
-    { "slug": "nakheel", "name": "Nakheel", "rank": 2, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "sobha-realty", "name": "Sobha Realty", "rank": 3, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "meraas", "name": "Meraas", "rank": 4, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "dubai-properties", "name": "Dubai Properties", "rank": 5, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "nshama", "name": "Nshama", "rank": 6, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "meydan", "name": "Meydan Group", "rank": 7, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "wasl", "name": "wasl", "rank": 8, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "aldar-properties", "name": "Aldar Properties", "rank": 9, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "expo-city-dubai", "name": "Expo City Dubai", "rank": 10, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "damac-properties", "name": "DAMAC Properties", "rank": 11, "segment": "luxury", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "omniyat", "name": "OMNIYAT", "rank": 12, "segment": "luxury", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "select-group", "name": "Select Group", "rank": 13, "segment": "luxury", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "mag", "name": "MAG", "rank": 14, "segment": "luxury", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "beyond", "name": "Beyond", "rank": 15, "segment": "luxury", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "binghatti", "name": "Binghatti", "rank": 16, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "azizi-developments", "name": "Azizi Developments", "rank": 17, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "danube-properties", "name": "Danube Properties", "rank": 18, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "samana-developers", "name": "Samana Developers", "rank": 19, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "deyaar-development", "name": "Deyaar Development", "rank": 20, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "union-properties", "name": "Union Properties", "rank": 21, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "tiger-properties", "name": "Tiger Properties", "rank": 22, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "ellington-properties", "name": "Ellington Properties", "rank": 23, "segment": "boutique", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "mira-developments", "name": "Mira Developments", "rank": 24, "segment": "boutique", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "object-1", "name": "Object 1", "rank": 25, "segment": "boutique", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
-    { "slug": "zoya", "name": "ZOYA", "rank": 26, "heroImage": "/img/placeholders/developer.svg", "projects": [] }
+    {
+      "slug": "nakheel",
+      "name": "Nakheel",
+      "rank": 2,
+      "segment": "master",
+      "founded": "2000",
+      "headline": "Creator of Palm Jumeirah and Dubai's man-made islands.",
+      "description": "Founded in 2000, Nakheel is the master developer behind Dubai's most ambitious land-reclamation projects, above all Palm Jumeirah, the palm-shaped island that became a global symbol of the city. Since 2024 it has operated as part of Dubai Holding Real Estate, which brought Nakheel and Meydan under the Dubai Holding umbrella.\n\nIts current focus is the revival of Palm Jebel Ali, an island roughly twice the size of Palm Jumeirah, where villa construction contracts worth over AED 3.5 billion were awarded in 2026. Nakheel is also building out Dubai Islands, a five-island beachfront district off Deira, and its older master communities such as Jumeirah Islands and Jumeirah Village Circle remain among the city's most traded residential areas.",
+      "website": "https://www.nakheel.com",
+      "projects": [
+        {
+          "slug": "palm-jumeirah",
+          "name": "Palm Jumeirah",
+          "developerSlug": "nakheel",
+          "area": "Palm Jumeirah",
+          "areaSlug": "palm-jumeirah",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse",
+            "Villa"
+          ],
+          "handover": "Ready",
+          "description": "The world-famous palm-shaped artificial island and Nakheel's signature achievement, delivered from the mid-2000s onward. It combines frond villas, shoreline and trunk apartments, luxury hotels and attractions, and consistently records some of Dubai's highest prices per square foot.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "palm-jebel-ali",
+          "name": "Palm Jebel Ali",
+          "developerSlug": "nakheel",
+          "area": "Palm Jebel Ali",
+          "areaSlug": "palm-jebel-ali",
+          "status": "under-construction",
+          "unitTypes": [
+            "Villa"
+          ],
+          "description": "Nakheel's relaunched mega-island, spanning about 13.4 square kilometres and adding around 91 kilometres of beach to Dubai's coastline. Villa sales on the fronds began in 2023, and in April 2026 Nakheel awarded contracts worth over AED 3.5 billion to build 544 villas, with major infrastructure works due to complete by the end of 2026.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "palm-central-private-residences",
+          "name": "Palm Central Private Residences",
+          "developerSlug": "nakheel",
+          "area": "Palm Jebel Ali",
+          "areaSlug": "palm-jebel-ali",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 2700000,
+          "description": "A beachfront apartment release within the Palm Central district of Palm Jebel Ali, with a further phase launched in June 2026 on the back of strong demand. Units range from one to four bedrooms, with official launch pricing starting at AED 2.7 million for a one-bedroom residence.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "como-residences",
+          "name": "Como Residences",
+          "developerSlug": "nakheel",
+          "area": "Palm Jumeirah",
+          "areaSlug": "palm-jumeirah",
+          "status": "under-construction",
+          "unitTypes": [
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "An ultra-luxury 71-storey tower rising on Palm Jumeirah, designed with a sculptural water-inspired silhouette and a limited collection of large residences and penthouses. Construction began in 2023 and the tower targets some of the highest apartment values on the island.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "dubai-islands",
+          "name": "Dubai Islands",
+          "developerSlug": "nakheel",
+          "area": "Dubai Islands",
+          "areaSlug": "dubai-islands",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Townhouse",
+            "Villa",
+            "Penthouse"
+          ],
+          "description": "A five-island master development off the Deira coast, formerly known as Deira Islands, planned around beaches, marinas, golf and resort hotels. Nakheel is progressing infrastructure and releasing residential plots and projects in phases, making it one of Dubai's most active new waterfront districts.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "bay-grove-residences",
+          "name": "Bay Grove Residences",
+          "developerSlug": "nakheel",
+          "area": "Dubai Islands",
+          "areaSlug": "dubai-islands",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "paymentPlan": "70/30",
+          "description": "A multi-phase beachfront apartment complex on Dubai Islands, released by Nakheel in successive phases through to a final phase now on sale. It offers one- to three-bedroom apartments and four-bedroom penthouses arranged around landscaped decks with direct beach access.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "jumeirah-islands",
+          "name": "Jumeirah Islands",
+          "developerSlug": "nakheel",
+          "area": "Jumeirah Islands",
+          "areaSlug": "jumeirah-islands",
+          "status": "ready",
+          "unitTypes": [
+            "Villa"
+          ],
+          "handover": "Ready",
+          "description": "An established gated villa community of island clusters set within man-made lakes, delivered by Nakheel in the mid-2000s. Its large lake-facing villas are a fixture of Dubai's prime secondary market.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "jumeirah-village-circle",
+          "name": "Jumeirah Village Circle",
+          "developerSlug": "nakheel",
+          "area": "Jumeirah Village Circle",
+          "areaSlug": "jumeirah-village-circle",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "Townhouse",
+            "Villa"
+          ],
+          "handover": "Ready",
+          "description": "A Nakheel master community in central Dubai that has grown into one of the city's highest-volume mid-market districts. Nakheel delivered the master plan, villas and townhouses, while third-party developers continue to add apartment buildings on individual plots.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "sobha-realty",
+      "name": "Sobha Realty",
+      "rank": 3,
+      "segment": "master",
+      "founded": "1976",
+      "headline": "Luxury developer known for in-house 'backward integrated' construction.",
+      "description": "Sobha Realty is the Dubai arm of the Sobha group, founded by PNC Menon in 1976, and has built its reputation on controlling design, engineering and construction in-house — a model it calls backward integration. The approach underpins its positioning at the upper end of Dubai's apartment and villa market, with a focus on build quality and delivery.\n\nIts flagship is Sobha Hartland, an eight-million-square-foot waterfront community in Mohammed Bin Rashid City, now largely delivered and extended by the adjacent Sobha Hartland 2 with its lagoon-centred clusters. The developer has also expanded beyond MBR City with waterfront towers at Dubai Harbour, villa communities in Dubailand and high-volume apartment districts such as Sobha Solis in Motor City.",
+      "website": "https://www.sobharealty.com",
+      "projects": [
+        {
+          "slug": "sobha-hartland",
+          "name": "Sobha Hartland",
+          "developerSlug": "sobha-realty",
+          "area": "Mohammed Bin Rashid City",
+          "areaSlug": "mohammed-bin-rashid-city",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Townhouse",
+            "Villa",
+            "Penthouse"
+          ],
+          "handover": "Ready",
+          "description": "Sobha's original eight-million-square-foot master community in Mohammed Bin Rashid City, combining apartment towers, townhouses and forest villas with schools and green space along the Dubai Water Canal. The community is substantially delivered, and Sobha is adding a retail mall within it.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "sobha-hartland-2",
+          "name": "Sobha Hartland 2",
+          "developerSlug": "sobha-realty",
+          "area": "Mohammed Bin Rashid City",
+          "areaSlug": "mohammed-bin-rashid-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Villa"
+          ],
+          "description": "The second phase of the Hartland master plan, launched in 2022 on eight million square feet beside the Ras Al Khor wildlife sanctuary and arranged around a swimmable lagoon. It spans villa enclaves such as Sobha Estates plus apartment clusters including Riverside Crescent, Skyscape and Skyvue, with early towers approaching handover from 2026.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "sobha-one",
+          "name": "Sobha One",
+          "developerSlug": "sobha-realty",
+          "area": "Ras Al Khor",
+          "areaSlug": "ras-al-khor",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "A five-tower linked development on Ras Al Khor Road near Dubai Creek, notable for its sky gardens and an 18-hole pitch-and-putt golf course woven through the podium. Towers range from around 30 to 65 storeys with creek and skyline views.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "sobha-seahaven",
+          "name": "Sobha Seahaven",
+          "developerSlug": "sobha-realty",
+          "area": "Dubai Harbour",
+          "areaSlug": "dubai-harbour",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "A three-tower ultra-luxury project at Dubai Harbour overlooking the cruise terminal, Palm Jumeirah and Ain Dubai. It offers large-format one- to four-bedroom residences plus premium Sky Edition units on the upper floors.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "sobha-reserve",
+          "name": "Sobha Reserve",
+          "developerSlug": "sobha-realty",
+          "area": "Dubailand",
+          "areaSlug": "dubailand",
+          "status": "under-construction",
+          "unitTypes": [
+            "Villa"
+          ],
+          "description": "A gated villa community in Wadi Al Safa 2, Dubailand, comprising several hundred four- and five-bedroom detached villas with private gardens. It marked Sobha's expansion into standalone villa development outside its Hartland heartland.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "sobha-solis",
+          "name": "Sobha Solis",
+          "developerSlug": "sobha-realty",
+          "area": "Motor City",
+          "areaSlug": "motor-city",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 1150000,
+          "handover": "Q4 2027",
+          "description": "A four-tower apartment development in Motor City with around 2,300 units, positioned as one of Sobha's more accessible price points. Towers of up to 46 floors overlook the Dubai Autodrome, with one- to three-bedroom layouts.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "sobha-central",
+          "name": "Sobha Central",
+          "developerSlug": "sobha-realty",
+          "area": "Sheikh Zayed Road",
+          "areaSlug": "sheikh-zayed-road",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Q4 2029",
+          "paymentPlan": "60/40",
+          "description": "A multi-tower high-rise scheme on Sheikh Zayed Road near Jebel Ali, planned around a central podium of retail and amenities within walking distance of the metro. Initial towers offer one- and two-bedroom apartments aimed at the Marina-JLT commuter corridor.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "meraas",
+      "name": "Meraas",
+      "rank": 4,
+      "segment": "master",
+      "founded": "2007",
+      "headline": "Dubai Holding's design-led urban district developer.",
+      "description": "Established in 2007 and now part of Dubai Holding Real Estate, Meraas specialises in design-led urban districts rather than conventional towers. Its portfolio shaped a distinctive strand of Dubai lifestyle development: walkable, low- to mid-rise neighbourhoods that mix residences with retail, dining and beachfront leisure.\n\nIts best-known addresses include City Walk, the boutique urban quarter off Al Wasl Road; Bluewaters Island, home to the Ain Dubai observation wheel; and the seafront Port de La Mer and Madinat Jumeirah Living. Current activity centres on Central Park at City Walk, the residential expansion of Dubai Design District, lagoon-villa community The Acres and successive phases of Nad Al Sheba Gardens.",
+      "website": "https://www.meraas.com",
+      "projects": [
+        {
+          "slug": "city-walk",
+          "name": "City Walk",
+          "developerSlug": "meraas",
+          "area": "City Walk",
+          "areaSlug": "city-walk",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Ready",
+          "description": "Meraas' flagship urban quarter between Downtown Dubai and Jumeirah, pairing mid-rise apartments with boutique retail, dining and the Coca-Cola Arena. The original phases are fully delivered, while the district continues to grow through the adjacent Central Park development.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "bluewaters-island",
+          "name": "Bluewaters Island",
+          "developerSlug": "meraas",
+          "area": "Bluewaters Island",
+          "areaSlug": "bluewaters-island",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Townhouse",
+            "Penthouse"
+          ],
+          "handover": "Ready",
+          "description": "A man-made island off JBR anchored by Ain Dubai, the world's largest observation wheel, with low-rise residences above a retail and dining promenade. The original Bluewaters Residences are handed over and trade at premium waterfront values, with the newer Bluewaters Bay towers extending the island's residential offer.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "port-de-la-mer",
+          "name": "Port de La Mer",
+          "developerSlug": "meraas",
+          "area": "La Mer",
+          "areaSlug": "la-mer",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Ready",
+          "description": "A Mediterranean-styled marina community at the tip of the La Mer peninsula in Jumeirah, with apartment buildings wrapped around a private marina and beach. Its main phases have been delivered and it remains one of Meraas' most sought-after seafront addresses.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "madinat-jumeirah-living",
+          "name": "Madinat Jumeirah Living",
+          "developerSlug": "meraas",
+          "area": "Umm Suqeim",
+          "areaSlug": "umm-suqeim",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "A freehold apartment community opposite Burj Al Arab and the Madinat Jumeirah resort, built in traditional Arabesque style with pedestrian access to the souk and beach. Earlier buildings are handed over and occupied, while later phases are still under construction.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "central-park-city-walk",
+          "name": "Central Park at City Walk",
+          "developerSlug": "meraas",
+          "area": "City Walk",
+          "areaSlug": "city-walk",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "The residential expansion of City Walk, arranging a collection of contemporary towers around a large landscaped park. Buildings are being released and delivered in phases, with the Thyme building scheduled for handover in late 2026.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "design-quarter-d3",
+          "name": "Design Quarter at d3",
+          "developerSlug": "meraas",
+          "area": "Dubai Design District",
+          "areaSlug": "dubai-design-district",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 1870000,
+          "handover": "Q2 2027",
+          "paymentPlan": "60/40",
+          "description": "The first major residential project inside Dubai Design District, part of Meraas' plan to turn d3 into a mixed live-work creative neighbourhood. It offers one- to three-bedroom apartments and duplexes with Dubai Canal and skyline views.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "the-acres",
+          "name": "The Acres",
+          "developerSlug": "meraas",
+          "area": "Dubailand",
+          "areaSlug": "dubailand",
+          "status": "under-construction",
+          "unitTypes": [
+            "Villa"
+          ],
+          "handover": "Q1 2028",
+          "description": "A standalone-villa community in Dubailand designed around swimmable lagoons, gardens and ravine-style parkland. Launched in 2024, it offers three- to seven-bedroom villas, with the premium Acres Estates collection at the top of the range.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "nad-al-sheba-gardens",
+          "name": "Nad Al Sheba Gardens",
+          "developerSlug": "meraas",
+          "area": "Nad Al Sheba",
+          "areaSlug": "nad-al-sheba",
+          "status": "off-plan",
+          "unitTypes": [
+            "Townhouse",
+            "Villa"
+          ],
+          "description": "A gated villa and townhouse community in Nad Al Sheba near Meydan, released by Meraas in numbered phases that have sold through consistently since 2021. Current phases offer three-bedroom townhouses and four- to five-bedroom villas, with the latest releases handing over towards the end of the decade.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "dubai-properties",
+      "name": "Dubai Properties",
+      "rank": 5,
+      "segment": "master",
+      "founded": "2002",
+      "headline": "Dubai Holding's master developer behind JBR, Business Bay and Villanova.",
+      "description": "Dubai Properties began operating in 2002 as Estithmaar Realty and later became the real estate development arm of Dubai Holding. Its first undertaking, Jumeirah Beach Residence, was among the world's largest single-phase residential projects and established the company as one of Dubai's defining master developers.\n\nToday its portfolio spans destination districts such as Business Bay and Jaddaf Waterfront alongside large suburban communities including Mudon, Villanova and Serena in Dubailand. Recent activity has centred on family townhouse phases at Mudon Al Ranim and Villanova, with new phases launching through 2026.",
+      "website": "https://www.dp.ae",
+      "projects": [
+        {
+          "slug": "jumeirah-beach-residence",
+          "name": "Jumeirah Beach Residence",
+          "developerSlug": "dubai-properties",
+          "area": "Jumeirah Beach Residence",
+          "areaSlug": "jumeirah-beach-residence",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse",
+            "Commercial unit"
+          ],
+          "handover": "Ready",
+          "description": "A 1.7km beachfront district of 40 towers with more than 6,900 apartments, delivered in phases between 2007 and 2010. JBR combines residential towers with The Walk retail promenade and remains one of Dubai's most recognisable waterfront addresses.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "mudon-al-ranim",
+          "name": "Mudon Al Ranim",
+          "developerSlug": "dubai-properties",
+          "area": "Mudon",
+          "areaSlug": "mudon",
+          "status": "under-construction",
+          "unitTypes": [
+            "Townhouse"
+          ],
+          "priceFromAED": 3050000,
+          "handover": "2026",
+          "paymentPlan": "60/40",
+          "description": "A phased townhouse extension of the established Mudon community, offering 3 and 4-bedroom homes arranged around Mudon Al Ranim Park. Earlier phases are well advanced in construction, while the latest phases were released around the community's central green spine with completion targeted from 2026.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "la-tilia-villanova",
+          "name": "La Tilia at Villanova",
+          "developerSlug": "dubai-properties",
+          "area": "Villanova",
+          "areaSlug": "villanova",
+          "status": "off-plan",
+          "unitTypes": [
+            "Townhouse"
+          ],
+          "priceFromAED": 2690000,
+          "handover": "Q3 2028",
+          "paymentPlan": "60/40",
+          "description": "The newest phase of the Villanova community, comprising around 850 three and four-bedroom townhouses in G+1 and G+2 configurations. Dubai Properties awarded an AED 1.1 billion construction contract for the phase in 2026, with handover targeted for Q3 2028.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "la-violeta-villanova",
+          "name": "La Violeta at Villanova",
+          "developerSlug": "dubai-properties",
+          "area": "Villanova",
+          "areaSlug": "villanova",
+          "status": "ready",
+          "unitTypes": [
+            "Townhouse"
+          ],
+          "handover": "Ready",
+          "description": "A completed townhouse phase within Villanova offering 3 and 4-bedroom family homes in a Mediterranean-inspired setting. The phase was handed over in 2025, joining earlier delivered sub-communities such as Amaranta, La Quinta and La Rosa.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "serena-dubai",
+          "name": "Serena",
+          "developerSlug": "dubai-properties",
+          "area": "Dubailand",
+          "areaSlug": "dubailand",
+          "status": "ready",
+          "unitTypes": [
+            "Townhouse",
+            "Twin house"
+          ],
+          "handover": "Ready",
+          "description": "A Portuguese and Spanish-inspired family community in Dubailand delivered across phases including Bella Casa, Casa Dora and Casa Viva. Homes are a mix of townhouses and semi-detached units set around courtyards, parks and a community retail centre.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "business-bay",
+          "name": "Business Bay",
+          "developerSlug": "dubai-properties",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse",
+            "Commercial unit",
+            "Administrative office"
+          ],
+          "handover": "Ready",
+          "description": "Dubai's central business district, master-planned by Dubai Properties along an extension of Dubai Creek beside Downtown Dubai. The district combines residential and commercial towers with offices, hotels and canal-front retail, and continues to attract third-party tower development on its plots.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "dubai-wharf",
+          "name": "Dubai Wharf",
+          "developerSlug": "dubai-properties",
+          "area": "Jaddaf Waterfront",
+          "areaSlug": "jaddaf-waterfront",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Commercial unit"
+          ],
+          "handover": "Ready",
+          "description": "A completed mixed-use development on Jaddaf Waterfront overlooking Dubai Creek, combining mid-rise apartment buildings with a canal-side retail promenade. The project forms part of Dubai Properties' Culture Village masterplan on the creek.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "one-jbr",
+          "name": "1/JBR",
+          "developerSlug": "dubai-properties",
+          "area": "Jumeirah Beach Residence",
+          "areaSlug": "jumeirah-beach-residence",
+          "status": "ready",
+          "unitTypes": [
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Ready",
+          "description": "A luxury residential tower at the gateway to Jumeirah Beach Residence with full-floor and half-floor layouts overlooking Palm Jumeirah, Bluewaters and the Arabian Gulf. The completed tower marks Dubai Properties' premium offering within the JBR district.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "nshama",
+      "name": "Nshama",
+      "rank": 6,
+      "segment": "master",
+      "founded": "2014",
+      "headline": "Creator of Town Square Dubai, one of the city's largest value-driven communities.",
+      "description": "Nshama is a private Dubai developer established in 2014 by a team of industry professionals, best known for Town Square Dubai, a 750-acre master community along Al Qudra Road. The development is built around a large central park and retail boulevard, targeting first-time buyers and young families with competitively priced apartments and townhouses.\n\nSince the first handovers, Nshama has delivered dozens of phases across Town Square, from townhouse districts to mid-rise apartment buildings, and continues to release new buildings on a regular cadence. Recent launches such as Ellison and Fiori extend the community with handovers scheduled through 2027 and 2028.",
+      "website": "https://nshama.ae",
+      "projects": [
+        {
+          "slug": "una-apartments-town-square",
+          "name": "UNA Apartments",
+          "developerSlug": "nshama",
+          "area": "Town Square Dubai",
+          "areaSlug": "town-square-dubai",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "A completed 12-storey building in Town Square designed around co-living, with compact studios and one-bedroom apartments plus shared social and co-working spaces. The project targets young professionals and investors seeking entry-level pricing in the community.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "zahra-apartments-town-square",
+          "name": "Zahra Apartments",
+          "developerSlug": "nshama",
+          "area": "Town Square Dubai",
+          "areaSlug": "town-square-dubai",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "One of the earliest completed apartment districts in Town Square Dubai, offering studios to three-bedroom homes across mid-rise buildings. Units range from around 322 sq ft studios to family-sized layouts overlooking the community's parks.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "shams-townhouses-town-square",
+          "name": "Shams Townhouses",
+          "developerSlug": "nshama",
+          "area": "Town Square Dubai",
+          "areaSlug": "town-square-dubai",
+          "status": "under-construction",
+          "unitTypes": [
+            "Townhouse"
+          ],
+          "handover": "2026",
+          "description": "A phase of around 220 modern townhouses within Town Square Dubai, continuing the community's low-rise family housing offer. The homes are positioned near the community's trails and green corridors with handover targeted in 2026.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "kaya-town-square",
+          "name": "Kaya",
+          "developerSlug": "nshama",
+          "area": "Town Square Dubai",
+          "areaSlug": "town-square-dubai",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "paymentPlan": "10/40/50",
+          "description": "A 16-storey apartment building launched in 2024 in the centre of Town Square Dubai. Kaya offers one to three-bedroom apartments with access to the community's central park, pools and retail boulevard.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "lexington-town-square",
+          "name": "Lexington",
+          "developerSlug": "nshama",
+          "area": "Town Square Dubai",
+          "areaSlug": "town-square-dubai",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q3 2026",
+          "description": "A contemporary mid-rise apartment building in Town Square Dubai launched in late 2024. Lexington offers modern one to three-bedroom layouts with community amenities and a delivery date scheduled for Q3 2026.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "elaya-town-square",
+          "name": "Elaya",
+          "developerSlug": "nshama",
+          "area": "Town Square Dubai",
+          "areaSlug": "town-square-dubai",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q4 2026",
+          "description": "A 14-storey residential building within the family-oriented Town Square community, launched in late 2024. Elaya offers apartments with balconies overlooking the neighbourhood's landscaped areas, with completion scheduled for Q4 2026.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "ellison-town-square",
+          "name": "Ellison",
+          "developerSlug": "nshama",
+          "area": "Town Square Dubai",
+          "areaSlug": "town-square-dubai",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q4 2027",
+          "paymentPlan": "10/35/55",
+          "description": "A 2025 launch in Town Square Dubai featuring apartments with smart-home technology, built-in wardrobes and private balconies or terraces. Construction began in mid-2025 with completion expected in late 2027.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "fiori-town-square",
+          "name": "Fiori Residences",
+          "developerSlug": "nshama",
+          "area": "Town Square Dubai",
+          "areaSlug": "town-square-dubai",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q2 2028",
+          "paymentPlan": "40/60",
+          "description": "One of Nshama's newest Town Square releases, offering one to three-bedroom apartments alongside a limited collection of duplexes. Instalments run through construction with the majority due at completion, scheduled for mid-2028.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "meydan",
+      "name": "Meydan Group",
+      "rank": 7,
+      "segment": "master",
+      "founded": "2007",
+      "headline": "Government-linked master developer of Meydan City and District One in MBR City.",
+      "description": "Meydan Group was established in 2007 to deliver Meydan City, the mixed-use district anchored by the Meydan Racecourse, home of the Dubai World Cup. From that sporting landmark the group evolved into a master developer of residential, commercial, hospitality and free-zone assets across Mohammed Bin Rashid City, and in 2024 it was brought together with Nakheel under the Dubai Holding umbrella.\n\nIts flagship residential achievement is District One, a gated community wrapped around a seven-kilometre crystal lagoon, delivered with villas, mansions and lagoon-front apartment phases such as Lagoon Views and Naya. Current pipeline work spans District One West, the Meydan One district and the newly master-planned Meydan Horizon waterfront quarter.",
+      "website": "https://www.meydan.ae",
+      "projects": [
+        {
+          "slug": "district-one",
+          "name": "District One",
+          "developerSlug": "meydan",
+          "area": "Mohammed Bin Rashid City",
+          "areaSlug": "mohammed-bin-rashid-city",
+          "status": "ready",
+          "unitTypes": [
+            "Villa"
+          ],
+          "handover": "Ready",
+          "description": "A premium gated villa and mansion community in Mohammed Bin Rashid City arranged around a seven-kilometre crystal lagoon. Launched in 2014 as a multi-billion dirham masterplan, its core villa phases were completed by 2018 and it remains one of Dubai's most exclusive addresses.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "lagoon-views-district-one",
+          "name": "Lagoon Views at District One",
+          "developerSlug": "meydan",
+          "area": "Mohammed Bin Rashid City",
+          "areaSlug": "mohammed-bin-rashid-city",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse",
+            "Villa"
+          ],
+          "handover": "Ready",
+          "description": "A lagoon-front apartment release within District One offering residences, penthouses and lagoon villas overlooking the community's crystal lagoon. The project reached completion around late 2025 and has moved into handover.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "naya-district-one",
+          "name": "Naya at District One",
+          "developerSlug": "meydan",
+          "area": "Mohammed Bin Rashid City",
+          "areaSlug": "mohammed-bin-rashid-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Villa"
+          ],
+          "handover": "Q3 2027",
+          "paymentPlan": "20/60/20",
+          "description": "Three green-roofed residential towers with 456 apartments and a collection of lagoon villas on the shores of District One's crystal lagoon. An AED 529 million construction contract was awarded for the project, with completion scheduled for 2027.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "district-one-west",
+          "name": "District One West",
+          "developerSlug": "meydan",
+          "area": "Mohammed Bin Rashid City",
+          "areaSlug": "mohammed-bin-rashid-city",
+          "status": "off-plan",
+          "unitTypes": [
+            "Villa"
+          ],
+          "description": "The westward expansion of the District One masterplan, offering large four to seven-bedroom villas and mansions around a new lagoon. The phase extends the established community's resort-style, lagoon-front living formula.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "meydan-one",
+          "name": "Meydan One",
+          "developerSlug": "meydan",
+          "area": "Meydan",
+          "areaSlug": "meydan",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Townhouse",
+            "Villa"
+          ],
+          "description": "A large mixed-use district rising between Al Khail Road and Ras Al Khor, planned around the Meydan One Mall with its record-length indoor ski slope. The residential masterplan comprises phased clusters of mid-rise apartment buildings with townhouses and waterfront homes set around a lagoon.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "meydan-horizon",
+          "name": "Meydan Horizon",
+          "developerSlug": "meydan",
+          "area": "Meydan Horizon",
+          "areaSlug": "meydan-horizon",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "description": "A newly master-planned waterfront district in Mohammed Bin Rashid City with views towards the Ras Al Khor Wildlife Sanctuary. The plan combines mid-rise residential towers, villa plots and retail around four crystal lagoons linked by a four-kilometre promenade.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "wasl",
+      "name": "wasl",
+      "rank": 8,
+      "segment": "master",
+      "founded": "2008",
+      "headline": "Semi-government developer managing one of Dubai's largest property portfolios.",
+      "description": "wasl Asset Management Group was established in 2008 by the Dubai Real Estate Corporation to develop and manage government-owned real estate across the city. It began with a portfolio of some 25,000 residential and commercial units in Dubai's established districts and has grown into one of the emirate's largest landlords and developers.\n\nThrough wasl properties, the group develops both leasehold communities and freehold projects, including the wasl1 district beside Zabeel Park and the wasl gate master development in Jebel Ali. Its current sales flagship is Hillside Residences at wasl gate, launched with phased completions from 2027.",
+      "website": "https://www.wasl.ae",
+      "projects": [
+        {
+          "slug": "park-gate-residences",
+          "name": "Park Gate Residences",
+          "developerSlug": "wasl",
+          "area": "Al Kifaf",
+          "areaSlug": "al-kifaf",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Ready",
+          "description": "Four completed high-rise towers in the wasl1 district overlooking Zabeel Park, launched in 2016 and delivered in 2020. The complex offers one to three-bedroom apartments and penthouses above a shared podium with pools, fitness and retail.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "wasl-1-residences",
+          "name": "1 Residences",
+          "developerSlug": "wasl",
+          "area": "Al Kifaf",
+          "areaSlug": "al-kifaf",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "A completed twin-tower development of 753 homes in wasl1, positioned between old and new Dubai next to Zabeel Park. Construction finished in 2022, offering one to three-bedroom apartments plus a small collection of duplexes.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "the-nook-wasl-gate",
+          "name": "The Nook",
+          "developerSlug": "wasl",
+          "area": "Wasl Gate",
+          "areaSlug": "wasl-gate",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "The first completed apartment neighbourhood in the wasl gate freehold masterplan in Jebel Ali, near Energy Metro Station and Festival Plaza mall. Buildings offer studios to three-bedroom apartments with pools, gyms and play areas.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "gardenia-townhomes-wasl-gate",
+          "name": "Gardenia Townhomes",
+          "developerSlug": "wasl",
+          "area": "Wasl Gate",
+          "areaSlug": "wasl-gate",
+          "status": "ready",
+          "unitTypes": [
+            "Townhouse"
+          ],
+          "handover": "Ready",
+          "description": "A low-rise townhome community within wasl gate offering family homes around landscaped courtyards and gardens. Residents benefit from the master development's schools, retail and direct access to Sheikh Zayed Road.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "hillside-residences-wasl-gate",
+          "name": "Hillside Residences",
+          "developerSlug": "wasl",
+          "area": "Wasl Gate",
+          "areaSlug": "wasl-gate",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "priceFromAED": 850000,
+          "handover": "Q2 2027",
+          "paymentPlan": "40/60",
+          "description": "A premium multi-phase apartment project of around 819 units in wasl gate, including duplexes and duplex penthouses. wasl offers a 40/60 construction-to-handover payment plan, with the first phase expected to complete in 2027 and later phases following.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "dar-wasl",
+          "name": "Dar Wasl",
+          "developerSlug": "wasl",
+          "area": "Al Wasl",
+          "areaSlug": "al-wasl",
+          "status": "ready",
+          "unitTypes": [
+            "Villa",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "A completed Andalusian and Islamic-inspired community on Al Wasl Road near Safa Park, comprising 166 villas, 112 apartments and a retail strip across six blocks. The development is held within wasl's leasing portfolio and is one of the district's signature low-rise communities.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "aldar-properties",
+      "name": "Aldar Properties",
+      "rank": 9,
+      "segment": "master",
+      "founded": "2004",
+      "headline": "Abu Dhabi's largest listed developer, expanding rapidly across Dubai.",
+      "description": "Aldar Properties, founded in 2004 and listed in Abu Dhabi, is the UAE capital's largest developer, behind landmarks such as Yas Island's destinations and Saadiyat Island's beachfront communities. The company combines a large development pipeline with a substantial recurring-income investment portfolio.\n\nSince 2023 Aldar has pushed into Dubai, starting with the wellness-led Haven community and followed by Athlon and The Wilds in Dubailand. In 2026 it deepened that expansion through an AED 38 billion joint venture with Dubai Holding to co-develop around 14,000 homes, including sites at Nad Al Sheba and Palm Jebel Ali.",
+      "website": "https://www.aldar.com",
+      "projects": [
+        {
+          "slug": "haven-by-aldar",
+          "name": "Haven",
+          "developerSlug": "aldar-properties",
+          "area": "Dubailand",
+          "areaSlug": "dubailand",
+          "status": "under-construction",
+          "unitTypes": [
+            "Villa",
+            "Townhouse"
+          ],
+          "handover": "Q3 2027",
+          "description": "Aldar's debut Dubai community, launched in late 2023 along Al Ain Road, planned as a wellness-focused neighbourhood of more than 2,400 homes. The masterplan centres on a wellness centre, treetop walks and green spines, with phased handovers scheduled to begin in 2027.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "verdes-by-haven",
+          "name": "Verdes by Haven",
+          "developerSlug": "aldar-properties",
+          "area": "Dubailand",
+          "areaSlug": "dubailand",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 990000,
+          "description": "The apartment component of Aldar's Haven masterplan, offering one to three-bedroom homes with wellness-inspired amenities including a gym, spa and co-working spaces. The release extends Haven's offer to buyers below the community's villa and townhouse price points.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "athlon-by-aldar",
+          "name": "Athlon",
+          "developerSlug": "aldar-properties",
+          "area": "Dubailand",
+          "areaSlug": "dubailand",
+          "status": "under-construction",
+          "unitTypes": [
+            "Villa",
+            "Townhouse"
+          ],
+          "handover": "Q2 2028",
+          "paymentPlan": "60/40",
+          "description": "Marketed as Dubai's first community designed around active living, Athlon was launched in May 2024 in Dubailand with villas and townhouses set along running, cycling and fitness loops. Handovers are scheduled from 2028, and the masterplan has since added apartment releases.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "the-wilds-by-aldar",
+          "name": "The Wilds",
+          "developerSlug": "aldar-properties",
+          "area": "Dubailand",
+          "areaSlug": "dubailand",
+          "status": "off-plan",
+          "unitTypes": [
+            "Villa"
+          ],
+          "priceFromAED": 5100000,
+          "handover": "Q2 2029",
+          "paymentPlan": "65/35",
+          "description": "Aldar's third Dubai residential community, launched in 2025 opposite Global Village and adjacent to Al Barari. The nature-themed masterplan offers luxury standalone villas, with prices from around AED 5.1 million and completion targeted for 2029.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "expo-city-dubai",
+      "name": "Expo City Dubai",
+      "rank": 10,
+      "segment": "master",
+      "founded": "2022",
+      "headline": "Master developer turning the Expo 2020 site into the UAE's first 15-minute city.",
+      "description": "Expo City Dubai is the government-backed master developer responsible for the legacy of Expo 2020 Dubai, established in 2022 to transform the 4.38 sq km World Expo site into a sustainable, people-centric urban district. Around 80 percent of the Expo-built infrastructure is being repurposed, with landmarks such as Al Wasl Plaza and Terra retained at the heart of the new city.\n\nIts residential programme spans two zones: Expo Central, home to the apartment clusters Mangrove Residences, Sky Residences and Sidr Residences, and Expo Valley, a nature-oriented villa and townhouse community on the city's edge. Positioned in the Dubai South growth corridor beside Al Maktoum International Airport, Expo City is planned as the UAE's first 15-minute city, where homes, offices, schools and parks sit within a short walk or cycle.",
+      "website": "https://www.expocitydubai.com",
+      "projects": [
+        {
+          "slug": "mangrove-residences-expo-city",
+          "name": "Mangrove Residences",
+          "developerSlug": "expo-city-dubai",
+          "area": "Expo City Dubai",
+          "areaSlug": "expo-city-dubai",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Townhouse"
+          ],
+          "description": "Mangrove Residences was the first residential cluster launched in Expo Central, comprising three towers with around 450 homes ranging from one to three-bedroom apartments to four-bedroom lofts and three-bedroom townhouses. The sold-out first phase overlooks Al Wasl Plaza and was slated for completion in early 2026. Buyers were offered extended post-handover payment terms, unusual for a government-linked master developer.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "sky-residences-expo-city",
+          "name": "Sky Residences",
+          "developerSlug": "expo-city-dubai",
+          "area": "Expo City Dubai",
+          "areaSlug": "expo-city-dubai",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 1700000,
+          "handover": "Q4 2026",
+          "paymentPlan": "50/50 with 5-year post-handover plan",
+          "description": "Sky Residences is the second Expo Central cluster, a multi-tower development of roughly 419 one to three-bedroom apartments overlooking the Dubai Exhibition Centre district. The first two towers sold strongly, prompting the release of a third. Residents get walkable access to Expo City's parks, running tracks and event venues.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "sidr-residences-expo-city",
+          "name": "Sidr Residences",
+          "developerSlug": "expo-city-dubai",
+          "area": "Expo City Dubai",
+          "areaSlug": "expo-city-dubai",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 1880000,
+          "handover": "Q4 2027",
+          "paymentPlan": "70/30 with 2-year post-handover tail",
+          "description": "Sidr Residences is the third residential cluster in Expo Central, launched after the sell-out success of Mangrove and Sky Residences. The three-tower scheme offers one to four-bedroom apartments a short walk from Al Wasl Plaza, Terra and the UAE Pavilion. It carries a 70/30 payment structure with a post-handover tail.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "shamsa-townhouses-expo-valley",
+          "name": "Shamsa Townhouses",
+          "developerSlug": "expo-city-dubai",
+          "area": "Expo Valley",
+          "areaSlug": "expo-valley",
+          "status": "ready",
+          "unitTypes": [
+            "Townhouse"
+          ],
+          "description": "Shamsa Townhouses is a collection of three and four-bedroom townhouses in Expo Valley, the low-rise, nature-led district on the edge of Expo City Dubai. Handover was scheduled for late 2025, making it one of the first completed Expo Valley products. Homes are designed around shaded streets, a wadi and extensive green open space.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "al-waha-expo-valley",
+          "name": "Al Waha",
+          "developerSlug": "expo-city-dubai",
+          "area": "Expo Valley",
+          "areaSlug": "expo-valley",
+          "status": "under-construction",
+          "unitTypes": [
+            "Villa",
+            "Townhouse"
+          ],
+          "handover": "Q4 2026",
+          "description": "Al Waha is an Expo Valley neighbourhood of 284 homes distinguished by signature canopy structures that shade streets and gardens. The community emphasises passive cooling, biodiversity and car-light streets in line with Expo City's sustainability agenda. Handover is targeted for the end of 2026.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "damac-properties",
+      "name": "DAMAC Properties",
+      "rank": 11,
+      "segment": "luxury",
+      "founded": "2002",
+      "headline": "The luxury giant behind DAMAC Hills, Lagoons, Islands and fashion-branded towers.",
+      "description": "DAMAC Properties, founded by Hussain Sajwani in 2002, is one of Dubai's largest private luxury developers, with tens of thousands of homes delivered across the emirate and a track record of high-profile branded partnerships including Cavalli, de GRISOGONO, Versace and, most recently, Chelsea Football Club. Its portfolio spans golf-course master communities, waterfront towers and themed villa districts.\n\nThe company builds at master-plan scale: DAMAC Hills and DAMAC Hills 2 are established communities, DAMAC Lagoons is handing over its Mediterranean-themed clusters, and newer launches such as DAMAC Islands and DAMAC Riverside extend the pipeline deep into the late 2020s. Alongside the villa communities, DAMAC continues to roll out branded high-rises in Dubai Harbour, Al Sufouh, Maritime City and along Sheikh Zayed Road.",
+      "website": "https://www.damacproperties.com",
+      "projects": [
+        {
+          "slug": "chelsea-residences-by-damac",
+          "name": "Chelsea Residences by DAMAC",
+          "developerSlug": "damac-properties",
+          "area": "Dubai Maritime City",
+          "areaSlug": "dubai-maritime-city",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 2170000,
+          "handover": "Q4 2029",
+          "description": "Launched in 2025 in partnership with Chelsea Football Club, this is billed as the world's first Chelsea FC-branded residential development. The Dubai Maritime City project comprises more than 1,400 sea-view apartments in one to three-bedroom formats. Delivery is scheduled for December 2029.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "damac-islands",
+          "name": "DAMAC Islands",
+          "developerSlug": "damac-properties",
+          "area": "Dubailand",
+          "areaSlug": "dubailand",
+          "status": "off-plan",
+          "unitTypes": [
+            "Townhouse",
+            "Villa"
+          ],
+          "priceFromAED": 2250000,
+          "handover": "Q4 2028",
+          "paymentPlan": "75/25",
+          "description": "DAMAC Islands is a roughly 30 million sq ft lagoon-based master community in Dubailand, with clusters themed on tropical island destinations such as the Maldives, Bora Bora and Fiji. The offering runs from four and five-bedroom townhouses to seven-bedroom villas. Its success prompted the follow-up launch of DAMAC Islands 2 in 2025.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "damac-riverside-views",
+          "name": "DAMAC Riverside Views",
+          "developerSlug": "damac-properties",
+          "area": "Dubai Investments Park",
+          "areaSlug": "dubai-investments-park",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "priceFromAED": 888000,
+          "handover": "Q2 2028",
+          "paymentPlan": "70/30",
+          "description": "Riverside Views brings mid-rise apartment living to DAMAC's Riverside community in Dubai Investments Park, near the Expo City corridor. One and two-bedroom units start under AED 1 million, positioning it as one of DAMAC's most accessible current launches. Handover is anticipated in Q2 2028.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "safa-two-de-grisogono",
+          "name": "Safa Two de GRISOGONO",
+          "developerSlug": "damac-properties",
+          "area": "Al Safa",
+          "areaSlug": "al-safa",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q2 2027",
+          "description": "Safa Two is a de GRISOGONO-branded twin-tower scheme on Sheikh Zayed Road near Safa Park, designed around a ruby motif with a jewelled facade and a sculpted 'floating' crown. The mix runs from studios to three-bedroom apartments. It is the sister project to the nearby Safa One, with handover targeted for 2027.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "damac-bay-by-cavalli",
+          "name": "DAMAC Bay by Cavalli",
+          "developerSlug": "damac-properties",
+          "area": "Dubai Harbour",
+          "areaSlug": "dubai-harbour",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q3 2027",
+          "paymentPlan": "80/20",
+          "description": "DAMAC Bay is a three-tower, Cavalli-branded seafront development at Dubai Harbour, offering one to three-bedroom apartments plus a limited run of three to five-bedroom duplexes with private pools on the upper floors. Every residence has sea views over the marina district. The first towers are tracking toward completion in 2027.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "cavalli-tower-al-sufouh",
+          "name": "Cavalli Tower",
+          "developerSlug": "damac-properties",
+          "area": "Al Sufouh",
+          "areaSlug": "al-sufouh",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "description": "Cavalli Tower is the world's first Cavalli-branded residential tower, a 70-plus storey landmark in Al Sufouh overlooking Palm Jumeirah, designed with architect Shaun Killa. The roughly AED 1 billion project topped out in late 2025. It contains 436 units from one to three-bedroom apartments up to super-luxury upper-floor residences.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "morocco-damac-lagoons",
+          "name": "Morocco at DAMAC Lagoons",
+          "developerSlug": "damac-properties",
+          "area": "DAMAC Lagoons",
+          "areaSlug": "damac-lagoons",
+          "status": "under-construction",
+          "unitTypes": [
+            "Townhouse",
+            "Villa"
+          ],
+          "handover": "Q4 2026",
+          "paymentPlan": "60/40",
+          "description": "Morocco is one of the final clusters in the Mediterranean-themed DAMAC Lagoons master community, comprising 471 homes: four and five-bedroom townhouses and a small set of six and seven-bedroom villas. The wider community began welcoming residents with the Santorini cluster, and Morocco's handover is slated for late 2026. Homes are styled around Moroccan courtyards, gardens and the community's crystal lagoon.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "omniyat",
+      "name": "OMNIYAT",
+      "rank": 12,
+      "segment": "luxury",
+      "founded": "2005",
+      "headline": "Ultra-luxury developer behind The Opus and Dubai's Dorchester Collection residences.",
+      "description": "OMNIYAT, founded in 2005 by Mahdi Amjad, operates at the top end of Dubai's residential market, treating each building as a piece of collectible design. It commissioned Zaha Hadid for The Opus in Business Bay and pioneered ultra-luxury branded living in the emirate through its long-running partnership with hotel operator Dorchester Collection, beginning with One at Palm Jumeirah.\n\nIts current pipeline concentrates on two waterfronts: the Palm Jumeirah crescent, with ORLA, AVA and The Alba Residences, and Marasi Bay in Business Bay, where the VELA towers rise beside The Lana, Dorchester Collection's first Dubai hotel. The group is also moving into ultra-prime commercial space with the two-tower Lumena scheme, whose Alta tower is planned as the tallest commercial building in Business Bay.",
+      "website": "https://www.omniyat.com",
+      "projects": [
+        {
+          "slug": "orla-dorchester-collection",
+          "name": "ORLA, Dorchester Collection",
+          "developerSlug": "omniyat",
+          "area": "Palm Jumeirah",
+          "areaSlug": "palm-jumeirah",
+          "status": "under-construction",
+          "unitTypes": [
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Q4 2026",
+          "description": "ORLA occupies a seven-acre beachfront plot at the apex of Palm Jumeirah's crescent, with 93 residences managed by Dorchester Collection across a low-rise 13-storey building. The mix spans two to four-bedroom simplexes, duplexes and sky palaces, complemented by the 20-duplex ORLA Infinity extension. Completion is targeted for the end of 2026.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "one-at-palm-jumeirah",
+          "name": "One at Palm Jumeirah, Dorchester Collection",
+          "developerSlug": "omniyat",
+          "area": "Palm Jumeirah",
+          "areaSlug": "palm-jumeirah",
+          "status": "ready",
+          "unitTypes": [
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Ready",
+          "description": "One at Palm Jumeirah was OMNIYAT's first residence managed by Dorchester Collection and set benchmark prices for the Palm's trunk-side seafront on completion. The building offers a limited number of large-format residences and penthouses with hotel-grade services. It remains one of Dubai's most expensive completed addresses on a per-square-foot basis.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "ava-at-palm-jumeirah",
+          "name": "AVA at Palm Jumeirah, Dorchester Collection",
+          "developerSlug": "omniyat",
+          "area": "Palm Jumeirah",
+          "areaSlug": "palm-jumeirah",
+          "status": "ready",
+          "unitTypes": [
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "AVA is the sister building to One at Palm Jumeirah, containing just 17 residences with one or two homes per floor, making it among the most exclusive addresses in Dubai. Residents share private access to the Dorchester Collection-managed amenities of the neighbouring One. The project was launched in early 2022 with delivery scheduled for late 2025.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "the-opus-by-omniyat",
+          "name": "The Opus",
+          "developerSlug": "omniyat",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "ready",
+          "unitTypes": [
+            "Commercial unit",
+            "Administrative office"
+          ],
+          "handover": "Ready",
+          "description": "The Opus is a completed mixed-use cube in Business Bay designed by Dame Zaha Hadid, instantly recognisable for the free-form void carved through its mirrored volume. It houses the ME Dubai hotel alongside offices, restaurants and event space. The building is OMNIYAT's signature completed landmark and one of Hadid's few works with interiors she also designed.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "vela-dorchester-collection",
+          "name": "VELA, Dorchester Collection",
+          "developerSlug": "omniyat",
+          "area": "Marasi Bay",
+          "areaSlug": "marasi-bay",
+          "status": "under-construction",
+          "unitTypes": [
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "VELA is a boutique Foster + Partners-designed tower on the Marasi Bay waterfront in Business Bay, with a limited collection of large residences and penthouses managed by Dorchester Collection. It sits beside The Lana hotel, whose services extend to residents. The building's sail-like profile is oriented toward the marina and Burj Khalifa skyline.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "vela-viento-dorchester-collection",
+          "name": "VELA VIENTO, Dorchester Collection",
+          "developerSlug": "omniyat",
+          "area": "Marasi Bay",
+          "areaSlug": "marasi-bay",
+          "status": "under-construction",
+          "unitTypes": [
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "VELA VIENTO is the second VELA tower at Marasi Bay, again designed by Foster + Partners with interiors by Gilles & Boissier, offering two to four-bedroom residences, duplexes and penthouses. Owners share the marina-front lifestyle of the VELA destination, with services managed by Dorchester Collection and access to The Lana's amenities.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "the-alba-residences-dorchester-collection",
+          "name": "The Alba Residences, Dorchester Collection",
+          "developerSlug": "omniyat",
+          "area": "Palm Jumeirah",
+          "areaSlug": "palm-jumeirah",
+          "status": "under-construction",
+          "unitTypes": [
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "The Alba Residences is a Zaha Hadid Architects-designed beachfront scheme on Palm Jumeirah's eastern crescent, paired with a Dorchester Collection resort and built around a wellness-first design brief. The offering is a limited set of three and four-bedroom residences, duplexes and penthouses, many with private pools. It is among the priciest launches on the Palm's crescent.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "lumena-by-omniyat",
+          "name": "Lumena",
+          "developerSlug": "omniyat",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "off-plan",
+          "unitTypes": [
+            "Administrative office",
+            "Commercial unit"
+          ],
+          "description": "Lumena is OMNIYAT's move into ultra-prime commercial development: a two-tower office destination in Business Bay whose 380-metre Lumena Alta tower is planned to be the district's tallest commercial building on completion in 2030. Enabling works, shoring and piling were programmed for 2026. The towers feature a distinctive spiralling facade.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "select-group",
+      "name": "Select Group",
+      "rank": 13,
+      "segment": "luxury",
+      "founded": "2002",
+      "headline": "Waterfront specialist building the world's tallest residential tower for Six Senses.",
+      "description": "Select Group is one of the region's largest privately-owned real estate developers, founded in Dubai in 2002 by Rahail Aslam. It made its name with high-rise waterfront living in Dubai Marina, delivering landmarks such as the three-tower Marina Gate complex, No.9 and Studio One, before anchoring the Business Bay canal front with its multi-phase Peninsula district.\n\nThe group has since become a leading force in branded residences through its partnership with IHG's Six Senses: it completed the region's first Six Senses branded residences on Palm Jumeirah's West Crescent in 2026 and is building Six Senses Residences Dubai Marina, a 122-storey tower set to become the world's tallest residential building. Its pipeline also includes Nautica at Dubai Maritime City and international projects in the UK and Europe.",
+      "website": "https://www.select-group.ae",
+      "projects": [
+        {
+          "slug": "six-senses-residences-dubai-marina",
+          "name": "Six Senses Residences Dubai Marina",
+          "developerSlug": "select-group",
+          "area": "Dubai Marina",
+          "areaSlug": "dubai-marina",
+          "status": "under-construction",
+          "unitTypes": [
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "priceFromAED": 5800000,
+          "description": "Developed with IHG's Six Senses brand, this 122-storey tower is set to become the world's tallest residential building on completion. It contains just 251 wellness-focused homes, from two to four-bedroom residences up to half-floor penthouses, duplex sky mansions and triplex sky mansions. Construction passed the quarter-complete mark in 2026.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "six-senses-residences-the-palm",
+          "name": "Six Senses Residences The Palm, Dubai",
+          "developerSlug": "select-group",
+          "area": "Palm Jumeirah",
+          "areaSlug": "palm-jumeirah",
+          "status": "ready",
+          "unitTypes": [
+            "Penthouse",
+            "Villa"
+          ],
+          "handover": "Ready",
+          "description": "Completed in 2026 on Palm Jumeirah's West Crescent, this is the first Six Senses branded residential project in the Middle East and North Africa. The beachfront resort community comprises penthouses, royal penthouses, duplex sky villas and nine five-bedroom Signature Villas with private gardens and infinity pools. Handovers to owners began upon completion.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "peninsula-four-the-plaza",
+          "name": "Peninsula Four, The Plaza",
+          "developerSlug": "select-group",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "description": "Peninsula Four is the centrepiece phase of Select Group's AED 7 billion-plus Peninsula district on the Business Bay canal front, pairing two 52-storey residential towers with sixteen waterfront duplex lofts and The Plaza retail and dining destination. Units range from studios to four-bedroom homes and lofts. Handover was scheduled for mid-2026.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "nautica-dubai-maritime-city",
+          "name": "Nautica",
+          "developerSlug": "select-group",
+          "area": "Dubai Maritime City",
+          "areaSlug": "dubai-maritime-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Q4 2026",
+          "description": "Nautica is a twin-tower development at Dubai Maritime City comprising Nautica One and Nautica Two, focused on one and two-bedroom waterfront apartments. The towers overlook the harbour between Port Rashid and Dubai's coastline. Handover is planned for the end of 2026.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "marina-gate",
+          "name": "Marina Gate",
+          "developerSlug": "select-group",
+          "area": "Dubai Marina",
+          "areaSlug": "dubai-marina",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Ready",
+          "description": "Marina Gate is a completed three-tower complex at the original gateway of Dubai Marina, comprising Marina Gate 1 and 2 plus the Jumeirah Living-branded third tower, together delivering roughly 1,500 homes. The towers share a retail podium and direct access to the Marina promenade. It is Select Group's flagship completed development in the district.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "studio-one-dubai-marina",
+          "name": "Studio One",
+          "developerSlug": "select-group",
+          "area": "Dubai Marina",
+          "areaSlug": "dubai-marina",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "Studio One is a completed 31-storey tower in Dubai Marina aimed at the mid-market entry point of the district, with a mix weighted toward studios and one-bedroom apartments. Construction ran from 2016 to 2019, with handover completed in 2019. The building sits on the Marina's western edge close to Dubai Media City.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "no-9-dubai-marina",
+          "name": "No.9",
+          "developerSlug": "select-group",
+          "area": "Dubai Marina",
+          "areaSlug": "dubai-marina",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "No.9 is a completed residential tower at the northern end of Dubai Marina, handed over by Select Group in 2018. The building offers marina and sea-view apartments a short walk from Marina Walk and the tram. It formed part of the developer's wave of Marina deliveries that preceded the Peninsula masterplan.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "mag",
+      "name": "MAG",
+      "rank": 14,
+      "segment": "luxury",
+      "founded": "2003",
+      "headline": "The real estate arm of MAG Group, best known for wellness-led luxury living under its Keturah brand.",
+      "description": "MAG Lifestyle Development is the property arm of MAG Group, a family-owned Emirati conglomerate whose trading roots date back to 1978. Established in 2003 as MAG Property Development, the company has delivered towers and communities across Dubai, from Jumeirah Lakes Towers and Dubai Marina to Mohammed Bin Rashid City, and has built its recent reputation around wellness-focused residential design.\n\nIts flagship Keturah brand pairs biophilic 'Bio Living' principles with ultra-luxury product, spanning the AED 5.7 billion Keturah Reserve in MBR City District 7 and the Keturah Resort on Dubai Creek in Al Jaddaf, home to The Ritz-Carlton Residences, Dubai, Creekside. Alongside these, MAG continues to serve the mainstream market with towers such as MAG 330 in City of Arabia and MBL Royal in JLT.",
+      "website": "https://mag.global",
+      "projects": [
+        {
+          "slug": "keturah-reserve",
+          "name": "Keturah Reserve",
+          "developerSlug": "mag",
+          "area": "Mohammed Bin Rashid City",
+          "areaSlug": "mohammed-bin-rashid-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Townhouse",
+            "Villa"
+          ],
+          "description": "Keturah Reserve is MAG's AED 5.7 billion bio-living community in District 7 of Mohammed Bin Rashid City, combining apartments, townhouses, villas and villa plots around biophilic design principles. The masterplan places wellbeing at its core, with architecture, landscaping and amenities all shaped around the developer's 'Bio Living' concept. It is among Dubai's most prominent wellness-led residential developments.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "keturah-resort",
+          "name": "Keturah Resort",
+          "developerSlug": "mag",
+          "area": "Al Jaddaf",
+          "areaSlug": "al-jaddaf",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse",
+            "Villa"
+          ],
+          "priceFromAED": 6900000,
+          "description": "Keturah Resort is an ultra-luxury wellness destination on the banks of Dubai Creek in Al Jaddaf, anchored by The Ritz-Carlton Residences, Dubai, Creekside. The gated resort community combines branded apartments with a limited collection of creekside mansions, plus amenities such as a private boat dock and helipad. It is positioned as one of the most exclusive branded-residence offerings in the city.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "mag-330",
+          "name": "MAG 330",
+          "developerSlug": "mag",
+          "area": "City of Arabia",
+          "areaSlug": "city-of-arabia",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "description": "MAG 330 is a residential tower in City of Arabia, Dubailand, offering studios and one- to two-bedroom apartments aimed at end users and yield-focused investors. The building features a health club, pool and wellness amenities in a more accessible price bracket than MAG's Keturah line.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "mag-22",
+          "name": "MAG 22",
+          "developerSlug": "mag",
+          "area": "Mohammed Bin Rashid City",
+          "areaSlug": "mohammed-bin-rashid-city",
+          "status": "ready",
+          "unitTypes": [
+            "Townhouse"
+          ],
+          "handover": "Ready",
+          "description": "MAG 22 is a boutique collection of 22 contemporary townhouses in District 7 of Mohammed Bin Rashid City, close to Meydan. The two- and three-bedroom homes feature clean-lined architecture with rooftop terraces, and the sold-out project is now complete.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "mag-eye",
+          "name": "MAG Eye",
+          "developerSlug": "mag",
+          "area": "Mohammed Bin Rashid City",
+          "areaSlug": "mohammed-bin-rashid-city",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "Townhouse"
+          ],
+          "handover": "Ready",
+          "description": "MAG Eye is a large mixed community of apartments and townhouses in Meydan District 7, developed by MAG in partnership with Meydan. Handovers began with the townhouse phase and continued building by building, establishing it as one of the earlier completed communities in District 7. The development spans extensive landscaped gardens with studios through family townhouses.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "mbl-royal",
+          "name": "MBL Royal",
+          "developerSlug": "mag",
+          "area": "Jumeirah Lake Towers",
+          "areaSlug": "jumeirah-lake-towers",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "MBL Royal is a 42-storey residential tower in Cluster K of Jumeirah Lakes Towers, completed in 2025. Its one- to three-bedroom apartments are delivered with branded appliances and premium finishes, continuing MAG's MBL series in the district.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "beyond",
+      "name": "Beyond",
+      "rank": 15,
+      "segment": "luxury",
+      "founded": "2024",
+      "headline": "Omniyat's premium-lifestyle brand building an 8 million sq ft waterfront masterplan at Dubai Maritime City.",
+      "description": "Beyond Developments was launched in 2024 by the Omniyat Group as a premium residential brand, taking Omniyat's design-led approach into larger-scale waterfront communities. Its home base is Dubai Maritime City, where it is developing roughly 8 million square feet of interconnected districts along the Jumeirah coastline.\n\nThe brand's launch cadence has been rapid: its debut tower Saria sold out quickly in 2024, followed by Orise, Sensia, The Mural, Talea and Soulever, several of which sold out within days. Together the projects form a unified masterplan of promenades, parks and waterfront living that positions Beyond as the dominant developer in the Maritime City corridor.",
+      "website": "https://beyonddevelopments.ae",
+      "projects": [
+        {
+          "slug": "saria-by-beyond",
+          "name": "Saria",
+          "developerSlug": "beyond",
+          "area": "Dubai Maritime City",
+          "areaSlug": "dubai-maritime-city",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "priceFromAED": 1700000,
+          "handover": "Q1 2028",
+          "paymentPlan": "50/50",
+          "description": "Saria was Beyond's debut project at Dubai Maritime City, a waterfront tower of 368 residences spanning apartments, duplexes and crowning penthouses. The launch sold out rapidly in 2024, setting the tone for the brand's subsequent releases. Residents overlook the Gulf and the Dubai skyline from one of the city's last undeveloped seafront districts.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "orise-by-beyond",
+          "name": "Orise",
+          "developerSlug": "beyond",
+          "area": "Dubai Maritime City",
+          "areaSlug": "dubai-maritime-city",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "priceFromAED": 1900000,
+          "handover": "Q1 2028",
+          "paymentPlan": "50/50",
+          "description": "Orise followed Saria as Beyond's second launch at Dubai Maritime City, announced in December 2024 after its predecessor sold out. The tower offers one- to three-bedroom apartments alongside chalet-style units and duplex penthouses with rooftop terraces. Its waterfront position gives sweeping views over the harbour and open sea.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "sensia-by-beyond",
+          "name": "Sensia",
+          "developerSlug": "beyond",
+          "area": "Dubai Maritime City",
+          "areaSlug": "dubai-maritime-city",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Q1 2029",
+          "description": "Sensia is a 36-storey waterfront tower at Dubai Maritime City with 275 residences, including garden duplexes and a signature penthouse. Launched in February 2025, it reportedly sold out within two days, underlining demand for Beyond's Maritime City masterplan.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "the-mural-by-beyond",
+          "name": "The Mural",
+          "developerSlug": "beyond",
+          "area": "Dubai Maritime City",
+          "areaSlug": "dubai-maritime-city",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "The Mural is a 36-storey tower at Dubai Maritime City launched in April 2025 following the sell-out of Sensia. Its mix spans one- to three-bedroom apartments, duplexes, maisonettes and a penthouse, wrapped in an artful facade that gives the project its name.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "talea-by-beyond",
+          "name": "Talea",
+          "developerSlug": "beyond",
+          "area": "Dubai Maritime City",
+          "areaSlug": "dubai-maritime-city",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "Talea is a nature-inspired residential tower within Beyond's Dubai Maritime City masterplan, offering one- to three-bedroom apartments and four-bedroom penthouses. The design emphasises planted terraces and a softer, landscape-led aesthetic within the waterfront district.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "soulever-by-beyond",
+          "name": "Soulever",
+          "developerSlug": "beyond",
+          "area": "Dubai Maritime City",
+          "areaSlug": "dubai-maritime-city",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "paymentPlan": "50/50",
+          "description": "Soulever is a roughly USD 708 million sculptural tower in the Forest District of Beyond's Dubai Maritime City masterplan. The 45-storey building features fluid terraces and expansive glazing with panoramic Gulf and skyline views, continuing the brand's series of design-led waterfront launches.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "binghatti",
+      "name": "Binghatti",
+      "rank": 16,
+      "segment": "value",
+      "founded": "2008",
+      "headline": "Dubai's fast-building developer, pairing high-volume housing with branded hypertowers.",
+      "description": "Binghatti is a privately held Emirati developer founded in 2008 by Dr. Hussain Binghatti Aljbori, now led architecturally and commercially by Muhammad Binghatti. The company is known for its distinctive interlaced facade language, unusually fast construction cycles and a portfolio concentrated in districts such as Business Bay, Al Jaddaf, JVC and Dubai Science Park, with an investment value running into the tens of billions of dirhams.\n\nWhile much of its output targets attainable price points, Binghatti has also moved decisively into branded ultra-luxury, partnering with Jacob & Co on the Burj Binghatti hypertower, with Bugatti on Bugatti Residences, and with Mercedes-Benz on the marque's first branded residential tower in Downtown Dubai.",
+      "website": "https://www.binghatti.com",
+      "projects": [
+        {
+          "slug": "burj-binghatti-jacob-co-residences",
+          "name": "Burj Binghatti Jacob & Co Residences",
+          "developerSlug": "binghatti",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "under-construction",
+          "unitTypes": [
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "Burj Binghatti Jacob & Co Residences is a diamond-spired hypertower in Business Bay designed to rank among the world's tallest residential buildings. The collaboration with jewellery house Jacob & Co features suite collections and ultra-luxury penthouses inspired by haute horlogerie. Construction began in late 2022.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "bugatti-residences-by-binghatti",
+          "name": "Bugatti Residences by Binghatti",
+          "developerSlug": "binghatti",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "under-construction",
+          "unitTypes": [
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "Bugatti Residences by Binghatti is the French hypercar marque's first branded residential project, rising beside the Dubai Canal in Business Bay. The tower's Riviera-inspired curves house limited-edition mansions in the sky and penthouse collections, with car-lift access for prized vehicles among its signature features.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "mercedes-benz-places-binghatti",
+          "name": "Mercedes-Benz Places | Binghatti",
+          "developerSlug": "binghatti",
+          "area": "Downtown Dubai",
+          "areaSlug": "downtown-dubai",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "Mercedes-Benz Places is the automaker's first branded residential tower worldwide, developed with Binghatti in Downtown Dubai. The high-rise translates Mercedes-Benz design principles into residential form, with apartments and penthouses overlooking Burj Khalifa and the city core.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "binghatti-skyrise",
+          "name": "Binghatti Skyrise",
+          "developerSlug": "binghatti",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q4 2026",
+          "paymentPlan": "70/30",
+          "description": "Binghatti Skyrise is a three-tower development of 48 storeys each in Business Bay, delivering around 3,300 apartments near the Dubai Canal. Its studio to three-bedroom mix and construction-linked payment terms have made it one of the developer's highest-volume launches in the district.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "binghatti-aquarise",
+          "name": "Binghatti Aquarise",
+          "developerSlug": "binghatti",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 999000,
+          "handover": "Q2 2027",
+          "description": "Binghatti Aquarise is an approximately 80-storey tower positioned along the Dubai Canal in Business Bay. The project brings the developer's signature facade treatment to a canal-front plot, with apartments spanning one to larger family layouts at Business Bay's more accessible price points.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "binghatti-hills",
+          "name": "Binghatti Hills",
+          "developerSlug": "binghatti",
+          "area": "Dubai Science Park",
+          "areaSlug": "dubai-science-park",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "description": "Binghatti Hills is a large twin-tower development in Dubai Science Park with roughly 1,666 units, its undulating facade designed to evoke rolling hillsides. Studios and one- to two-bedroom apartments, some with private pools, target investors seeking rental yield in the Al Barsha South corridor.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "binghatti-elite",
+          "name": "Binghatti Elite",
+          "developerSlug": "binghatti",
+          "area": "Dubai Production City",
+          "areaSlug": "dubai-production-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom"
+          ],
+          "description": "Binghatti Elite is a compact-living tower in Dubai Production City focused on studios and one-bedroom apartments. It is pitched at first-time buyers and yield investors, extending Binghatti's high-volume, quick-delivery model beyond its core Business Bay and JVC strongholds.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "one-by-binghatti",
+          "name": "One by Binghatti",
+          "developerSlug": "binghatti",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Q4 2026",
+          "description": "One by Binghatti is a premium high-rise on the Business Bay waterfront offering studios through three-bedroom apartments, plus pool villas and royal penthouses at its crown. The project sits a tier above the developer's standard line, with hotel-style amenities and canal views.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "azizi-developments",
+      "name": "Azizi Developments",
+      "rank": 17,
+      "segment": "value",
+      "founded": "2007",
+      "headline": "One of Dubai's largest private developers, from mega-communities to the 725-metre Burj Azizi.",
+      "description": "Azizi Developments was founded in 2007 by Afghan-born entrepreneur Mirwais Azizi and has grown into one of the UAE's largest private developers, with tens of thousands of units delivered or under construction across MBR City, Dubai South, Al Furjan, Palm Jumeirah, Dubai Healthcare City and beyond. Its model centres on large master-planned communities at accessible price points, backed by an in-house construction pipeline.\n\nThe developer's headline undertakings include Azizi Riviera, a French Riviera-inspired canal community at Meydan; Azizi Venice, a water-themed district of some 100 buildings in Dubai South; the Milan community in Dubailand; and Burj Azizi on Sheikh Zayed Road, planned at 725 metres to become the world's second-tallest building.",
+      "website": "https://www.azizidevelopments.com",
+      "projects": [
+        {
+          "slug": "azizi-venice",
+          "name": "Azizi Venice",
+          "developerSlug": "azizi-developments",
+          "area": "Dubai South",
+          "areaSlug": "dubai-south",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Villa"
+          ],
+          "paymentPlan": "50/50",
+          "description": "Azizi Venice is an AED 30 billion water-themed mega-community in Dubai South, near Al Maktoum International Airport, comprising around 100 mid-rise buildings plus villas and mansions arranged around swimmable lagoons. Studios through three-bedroom apartments line a boulevard of retail and dining, with phased handovers underway from 2026. Its scale makes it one of the largest single residential projects in the emirate.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "burj-azizi",
+          "name": "Burj Azizi",
+          "developerSlug": "azizi-developments",
+          "area": "Sheikh Zayed Road",
+          "areaSlug": "sheikh-zayed-road",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "priceFromAED": 4970000,
+          "description": "Burj Azizi is a 725-metre supertall tower on Sheikh Zayed Road, planned to become the world's second-tallest building after Burj Khalifa. The roughly 130-plus-storey project mixes residences with hotel, retail, dining and observation levels. Sales launched in early 2025 with apartments announced from AED 4.97 million.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "azizi-riviera",
+          "name": "Azizi Riviera",
+          "developerSlug": "azizi-developments",
+          "area": "Meydan",
+          "areaSlug": "meydan",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "Azizi Riviera is a French Mediterranean-inspired community of dozens of mid-rise buildings along the canal at Meydan One in Mohammed Bin Rashid City. Delivered in phases over several years, the development has reached its final handover stage and now functions as an established residential district with lagoon, promenade and retail components.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "azizi-milan",
+          "name": "Azizi Milan",
+          "developerSlug": "azizi-developments",
+          "area": "City of Arabia",
+          "areaSlug": "city-of-arabia",
+          "status": "off-plan",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "description": "Azizi Milan is a multi-billion-dirham, Italian-inspired master community in City of Arabia, Dubailand, launched for sale in April 2025. The fashion-themed district plans studio to three-bedroom apartments across dozens of buildings, extending Azizi's mega-community formula inland along Sheikh Mohammed Bin Zayed Road.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "azizi-creek-views-3",
+          "name": "Azizi Creek Views III",
+          "developerSlug": "azizi-developments",
+          "area": "Dubai Healthcare City",
+          "areaSlug": "dubai-healthcare-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q4 2026",
+          "description": "Creek Views III is the third tower in Azizi's creek-facing series in Dubai Healthcare City, comprising 290 studios and one- to three-bedroom apartments. The project passed the 66 percent construction mark in mid-2026 and is tracking toward delivery at the end of the year, with views over Dubai Creek toward the Downtown skyline.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "azizi-mina",
+          "name": "Azizi Mina",
+          "developerSlug": "azizi-developments",
+          "area": "Palm Jumeirah",
+          "areaSlug": "palm-jumeirah",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Ready",
+          "description": "Azizi Mina is a completed beachfront residence on the east crescent of Palm Jumeirah, handed over in 2021. The low-rise building offers one- and two-bedroom apartments and penthouses with private beach access, representing the developer's most upscale delivered address.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "danube-properties",
+      "name": "Danube Properties",
+      "rank": 18,
+      "segment": "value",
+      "founded": "2014",
+      "headline": "Affordable-luxury specialist famous for pioneering the 1% monthly payment plan in Dubai.",
+      "description": "Danube Properties is the real estate development arm of Danube Group, the building-materials conglomerate founded by Rizwan Sajan. Since entering development in 2014 the company has built one of Dubai's largest affordable-luxury portfolios, targeting first-time buyers and yield-focused investors with fully furnished apartments and its signature 1% monthly payment plan.\n\nThe developer is best known for amenity-heavy towers in communities such as Jumeirah Village Circle, Dubai Sports City, Al Furjan and Business Bay, and has moved steadily upmarket with branded projects including the Aston Martin-designed Viewz in JLT and Bayz 101, a 101-storey supertall in Business Bay. Danube Group has stated plans to launch projects with sales potential of roughly USD 4 billion across FY2026-27.",
+      "website": "https://danubeproperties.com",
+      "projects": [
+        {
+          "slug": "bayz-101",
+          "name": "Bayz 101",
+          "developerSlug": "danube-properties",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "priceFromAED": 1175000,
+          "handover": "Q2 2028",
+          "paymentPlan": "1% monthly",
+          "description": "Danube's most ambitious tower to date, Bayz 101 rises 101 storeys beside Sheikh Zayed Road in Business Bay. The fully furnished residences range from studios to penthouses, supported by an observation deck, rooftop infinity pool and an extensive amenity stack. It anchors the developer's push into Dubai's supertall segment.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "danube-oceanz",
+          "name": "Oceanz by Danube",
+          "developerSlug": "danube-properties",
+          "area": "Dubai Maritime City",
+          "areaSlug": "dubai-maritime-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q2 2027",
+          "paymentPlan": "1% monthly",
+          "description": "Oceanz is a multi-tower waterfront development in Dubai Maritime City with interiors styled by Tonino Lamborghini Casa. The project offers furnished studios to three-bedroom apartments with sea views and more than 40 amenities. It marked Danube's entry into Dubai's emerging maritime district.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "danube-diamondz",
+          "name": "Diamondz by Danube",
+          "developerSlug": "danube-properties",
+          "area": "Jumeirah Lake Towers",
+          "areaSlug": "jumeirah-lake-towers",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 1120000,
+          "handover": "Q4 2027",
+          "paymentPlan": "1% monthly",
+          "description": "Diamondz is a high-rise residential tower in Jumeirah Lake Towers offering furnished studios through three-bedroom apartments. The scheme carries Danube's typical amenity-rich formula, with dozens of leisure facilities across podium and rooftop levels in an established lakeside district.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "danube-sportz",
+          "name": "Sportz by Danube",
+          "developerSlug": "danube-properties",
+          "area": "Dubai Sports City",
+          "areaSlug": "dubai-sports-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 590000,
+          "handover": "Q2 2027",
+          "paymentPlan": "1% monthly",
+          "description": "Sportz is a sports-lifestyle-themed development in Dubai Sports City built around facilities such as a cricket pitch, basketball and padel courts, and a cycling track. It offers furnished studios to three-bedroom apartments at some of the lowest entry prices in Danube's current pipeline.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "danube-timez",
+          "name": "Timez by Danube",
+          "developerSlug": "danube-properties",
+          "area": "Dubai Silicon Oasis",
+          "areaSlug": "dubai-silicon-oasis",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 800000,
+          "handover": "Q3 2028",
+          "paymentPlan": "1% monthly",
+          "description": "Timez brings Danube's convertible-apartment concept to Dubai Silicon Oasis, with flexible layouts that adapt smaller units into extra sleeping or working space. The tower offers furnished studios to three-bedroom apartments in a technology-park district popular with commuting professionals.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "danube-fashionz",
+          "name": "Fashionz by Danube",
+          "developerSlug": "danube-properties",
+          "area": "Jumeirah Village Triangle",
+          "areaSlug": "jumeirah-village-triangle",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q3 2026",
+          "paymentPlan": "1% monthly",
+          "description": "Fashionz is a fashion-themed residential development in Jumeirah Village Triangle created in collaboration with FashionTV. Its furnished studios to three-bedroom apartments feature branded interiors and runway-inspired common areas, an unusual positioning for the value segment.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "danube-viewz",
+          "name": "Viewz by Danube",
+          "developerSlug": "danube-properties",
+          "area": "Jumeirah Lake Towers",
+          "areaSlug": "jumeirah-lake-towers",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q2 2026",
+          "paymentPlan": "1% monthly",
+          "description": "Viewz is a twin-tower project in Jumeirah Lake Towers with interiors designed in partnership with Aston Martin. The development offers furnished studios to three-bedroom residences overlooking the JLT lakes and Dubai Marina skyline, representing Danube's move into branded residences.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "danube-elitz-2",
+          "name": "Elitz 2 by Danube",
+          "developerSlug": "danube-properties",
+          "area": "Jumeirah Village Circle",
+          "areaSlug": "jumeirah-village-circle",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 650000,
+          "handover": "Q3 2026",
+          "paymentPlan": "1% monthly",
+          "description": "Elitz 2 is the second phase of Danube's Elitz series in Jumeirah Village Circle, a twin-tower scheme with furnished studios to three-bedroom apartments. The project continues the developer's high-amenity, low-entry-price formula in one of Dubai's most active mid-market districts.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "samana-developers",
+      "name": "Samana Developers",
+      "rank": 19,
+      "segment": "value",
+      "founded": "2018",
+      "headline": "Fast-growing private developer known for resort-style buildings with private pool apartments.",
+      "description": "Samana Developers is a privately held Dubai developer founded by Imran Farooq as part of the wider Samana Group. The company built its reputation on boutique, resort-inspired buildings in districts such as Arjan, Majan, Dubai Studio City and Dubai Land Residence Complex, with private plunge pools in many apartments and long, investor-friendly 1% monthly payment plans.\n\nRapid launch cadence has made Samana one of Dubai's top-selling off-plan developers, with a pipeline spanning Dubai Islands, Dubai South and Dubai Industrial City. In April 2026 the firm broke ground on five projects worth about AED 1.9 billion, and it has publicly committed to multiple handovers across 2026 and 2027 under its 'On Time, Every Time' delivery pledge.",
+      "website": "https://www.samanadevelopers.com",
+      "projects": [
+        {
+          "slug": "samana-ocean-pearl",
+          "name": "Samana Ocean Pearl",
+          "developerSlug": "samana-developers",
+          "area": "Dubai Islands",
+          "areaSlug": "dubai-islands",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "description": "Samana Ocean Pearl is the developer's flagship beachfront address on Dubai Islands, offering one- to three-bedroom residences, many with private pools. The project trades Samana's usual mid-market positioning for a waterfront setting close to the beaches and marinas of the islands masterplan.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "samana-barari-views",
+          "name": "Samana Barari Views",
+          "developerSlug": "samana-developers",
+          "area": "Majan",
+          "areaSlug": "majan",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Q4 2026",
+          "paymentPlan": "1% monthly",
+          "description": "Samana Barari Views sits in Majan on the edge of Dubailand, facing the greenery of Al Barari. The building offers studios to two-bedroom apartments, with private pool options and an extended instalment plan that stretches well beyond handover.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "samana-golf-avenue",
+          "name": "Samana Golf Avenue",
+          "developerSlug": "samana-developers",
+          "area": "Dubai Studio City",
+          "areaSlug": "dubai-studio-city",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "Samana Golf Avenue is a completed 233-unit building in Dubai Studio City, delivered in 2024. It offers studios to two-bedroom apartments overlooking the neighbouring golf course, and stands as one of the projects that established Samana's delivery track record.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "samana-skyros",
+          "name": "Samana Skyros",
+          "developerSlug": "samana-developers",
+          "area": "Arjan",
+          "areaSlug": "arjan",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Q2 2026",
+          "paymentPlan": "1% monthly",
+          "description": "Samana Skyros is a Greek-island-themed tower of roughly 441 units in Arjan, near Dubai Miracle Garden. The project offers studios to two-bedroom apartments, with private pool units and resort-style podium amenities in one of Samana's core home districts.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "samana-ivy-gardens",
+          "name": "Samana Ivy Gardens",
+          "developerSlug": "samana-developers",
+          "area": "Dubai Land Residence Complex",
+          "areaSlug": "dubai-land-residence-complex",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q2 2026",
+          "paymentPlan": "1% monthly",
+          "description": "Samana Ivy Gardens brings the developer's greenery-wrapped design language to Dubai Land Residence Complex. The building offers studios to three-bedroom apartments with landscaped decks and a leisure podium, and was followed by a second phase in the same community.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "samana-south-haven",
+          "name": "Samana South Haven",
+          "developerSlug": "samana-developers",
+          "area": "Dubai Industrial City",
+          "areaSlug": "dubai-industrial-city",
+          "status": "off-plan",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "description": "Launched in July 2026, Samana South Haven is a 200-unit, low-rise development in the growth corridor between Dubai Industrial City and Dubai South. It offers studios to two-bedroom apartments across six floors with resort-inspired landscaping, following the strong take-up of Samana's Hills South series nearby.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "samana-hills",
+          "name": "Samana Hills",
+          "developerSlug": "samana-developers",
+          "area": "Arjan",
+          "areaSlug": "arjan",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "Samana Hills is one of the developer's early completed buildings in Arjan, delivering studios to two-bedroom apartments around a central resort-style pool deck. The project helped define the private-pool-apartment formula that Samana has since repeated across Dubai.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "deyaar-development",
+      "name": "Deyaar Development",
+      "rank": 20,
+      "segment": "value",
+      "founded": "2002",
+      "headline": "DFM-listed developer spanning mid-market communities to a 445m supertall.",
+      "description": "Deyaar Development PJSC is one of Dubai's longest-established listed developers, founded in 2002 and majority-backed by Dubai Islamic Bank. Its portfolio runs from the Midtown master community in Dubai Production City to waterfront and high-rise projects in Dubai Maritime City and Business Bay, alongside property management, hospitality and facilities management businesses.\n\nThe company reported AED 1.97 billion in revenue for 2025 and has been scaling up launches, headlined by DWTN Residences, a 445-metre tower of more than 110 floors in Business Bay that ranks among the UAE's tallest residential projects. Deyaar has also expanded beyond Dubai with a beachfront debut in Umm Al Quwain.",
+      "website": "https://www.deyaar.ae",
+      "projects": [
+        {
+          "slug": "dwtn-residences",
+          "name": "DWTN Residences",
+          "developerSlug": "deyaar-development",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "priceFromAED": 1800000,
+          "handover": "Q4 2029",
+          "paymentPlan": "50/50",
+          "description": "DWTN Residences is Deyaar's 445-metre supertall beside the Business Bay metro station, planned at more than 110 floors with 522 residences and a so-called Royal Palace crowning the tower. Unveiled in June 2025, it is organised into vertical zones of gardens, wellness and social spaces, and is among the tallest residential projects announced in Dubai.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "mar-casa",
+          "name": "Mar Casa",
+          "developerSlug": "deyaar-development",
+          "area": "Dubai Maritime City",
+          "areaSlug": "dubai-maritime-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "priceFromAED": 1280000,
+          "handover": "Q4 2026",
+          "description": "Mar Casa is a wave-inspired waterfront tower of about 580 units in Dubai Maritime City, ranging from studios and apartments to duplexes and penthouses. The project is Deyaar's premium seafront offering, with an infinity pool, spa and coworking spaces, and a payment plan that extends two years past handover.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "eleve-by-deyaar",
+          "name": "Eleve by Deyaar",
+          "developerSlug": "deyaar-development",
+          "area": "Downtown Jebel Ali",
+          "areaSlug": "downtown-jebel-ali",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 556000,
+          "handover": "Q2 2027",
+          "description": "Eleve is a high-rise on Sheikh Zayed Road in Downtown Jebel Ali, positioned for commuters between Dubai and Abu Dhabi with a metro station nearby. It offers studios to three-bedroom apartments at one of the lowest entry prices in Deyaar's current portfolio.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "rosalia-residences",
+          "name": "Rosalia Residences",
+          "developerSlug": "deyaar-development",
+          "area": "Al Furjan",
+          "areaSlug": "al-furjan",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 1019400,
+          "description": "Rosalia Residences is a family-oriented mid-rise in Al Furjan offering one- to three-bedroom apartments with smart-home features and a landscaped leisure podium. The project sits close to the Discovery Gardens metro station in one of Dubai's established villa-and-apartment communities.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "park-five",
+          "name": "Park Five",
+          "developerSlug": "deyaar-development",
+          "area": "Dubai Production City",
+          "areaSlug": "dubai-production-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q2 2027",
+          "description": "Park Five is a five-building residential cluster in Dubai Production City offering studios to three-bedroom apartments around shared courtyards and pools. Deyaar released the community in phases through 2025, with the final phase targeting completion in late 2027.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "jannat-midtown",
+          "name": "Jannat, Midtown",
+          "developerSlug": "deyaar-development",
+          "area": "Dubai Production City",
+          "areaSlug": "dubai-production-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "priceFromAED": 547000,
+          "handover": "Q2 2026",
+          "description": "Jannat is a district within Deyaar's Midtown master community in Dubai Production City, offering studios to three-bedroom apartments around landscaped pool decks. It extends one of the developer's most established mid-market communities at accessible price points.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "midtown-noor",
+          "name": "Midtown Noor",
+          "developerSlug": "deyaar-development",
+          "area": "Dubai Production City",
+          "areaSlug": "dubai-production-city",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "Noor District is a completed phase of Deyaar's Midtown master community in Dubai Production City, comprising a cluster of mid-rise buildings around shared gardens and pools. Its studios to two-bedroom apartments serve the community's core rental and end-user market.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "union-properties",
+      "name": "Union Properties",
+      "rank": 21,
+      "segment": "value",
+      "founded": "1987",
+      "headline": "Veteran DFM-listed developer behind Motor City, Green Community and DIFC's Index Tower.",
+      "description": "Union Properties PJSC is one of Dubai's oldest developers, established in 1987 and listed on the Dubai Financial Market. Over nearly four decades it has delivered tens of thousands of homes and shaped entire districts, most notably the 35-million-plus square foot Motor City masterplan around the Dubai Autodrome, the Green Community in Dubai Investments Park and Uptown Mirdiff.\n\nAfter a period of restructuring, the company returned to large-scale development with projects concentrated in Motor City, including the Motor City Hills townhouse community and Takaya, an AED 2 billion mixed-use scheme launched with apartments, townhouses, villas and a 500-metre retail boulevard overlooking the Autodrome.",
+      "website": "https://up.ae",
+      "projects": [
+        {
+          "slug": "takaya",
+          "name": "Takaya",
+          "developerSlug": "union-properties",
+          "area": "Motor City",
+          "areaSlug": "motor-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Townhouse",
+            "Villa"
+          ],
+          "handover": "Q4 2027",
+          "description": "Takaya is Union Properties' AED 2 billion mixed-use development overlooking the Dubai Autodrome in Motor City, comprising 744 apartments, 39 townhouses and five villas across a 436,000 sq ft plot. The scheme includes a 500-metre retail boulevard and a podium-level sky garden, marking the company's return to major development.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "motor-city-hills",
+          "name": "Motor City Hills",
+          "developerSlug": "union-properties",
+          "area": "Motor City",
+          "areaSlug": "motor-city",
+          "status": "ready",
+          "unitTypes": [
+            "Townhouse"
+          ],
+          "handover": "Ready",
+          "description": "Motor City Hills is a community of around 415 three-storey, four-bedroom townhouses in Motor City, delivered by Union Properties' subsidiary Al Etihad Real Estate Development. The two townhouse layouts of roughly 2,600 to 3,000 sq ft overlook Motor City Boulevard, and the first phase sold out ahead of completion.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "oia-residence",
+          "name": "OIA Residence",
+          "developerSlug": "union-properties",
+          "area": "Motor City",
+          "areaSlug": "motor-city",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "OIA Residence is a completed resort-style apartment complex within the Motor City masterplan, offering one- to three-bedroom homes around landscaped courtyards and pools. It forms part of the residential core Union Properties built up around the Dubai Autodrome.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "green-community-west",
+          "name": "Green Community West",
+          "developerSlug": "union-properties",
+          "area": "Dubai Investments Park",
+          "areaSlug": "dubai-investments-park",
+          "status": "ready",
+          "unitTypes": [
+            "Villa",
+            "Townhouse"
+          ],
+          "handover": "Ready",
+          "description": "Green Community West is a mature gated community in Dubai Investments Park known for its unusually generous landscaping and low-density planning. Union Properties delivered its villas and townhouses in the 2000s, and the neighbourhood remains a benchmark for green suburban living in Dubai.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "uptown-mirdiff",
+          "name": "Uptown Mirdiff",
+          "developerSlug": "union-properties",
+          "area": "Mirdif",
+          "areaSlug": "mirdif",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Townhouse",
+            "Villa"
+          ],
+          "handover": "Ready",
+          "description": "Uptown Mirdiff is a completed mixed residential community in Mirdif combining apartments, townhouses and villas around a retail centre. Built by Union Properties in the mid-2000s, it remains a settled family neighbourhood in eastern Dubai.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "index-tower",
+          "name": "Index Tower",
+          "developerSlug": "union-properties",
+          "area": "DIFC",
+          "areaSlug": "difc",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse",
+            "Administrative office"
+          ],
+          "handover": "Ready",
+          "description": "Index Tower is an award-winning 80-storey mixed-use skyscraper in the Dubai International Financial Centre, developed by Union Properties and designed by Foster + Partners. The completed tower combines offices on its lower floors with residences and penthouses above, and is one of the most recognisable buildings the company has delivered.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "tiger-properties",
+      "name": "Tiger Properties",
+      "rank": 22,
+      "segment": "value",
+      "founded": "1976",
+      "headline": "Construction-backed group delivering value towers across JVC, JVT and Business Bay.",
+      "description": "Tiger Properties is the real estate development arm of Tiger Group, founded in 1976 by Waleed Mohammad AlZoubi in Sharjah. Backed by the group's in-house contracting business, it has completed more than 270 projects and over 23,000 units across the UAE, focusing on competitively priced towers in districts such as Jumeirah Village Circle, Jumeirah Village Triangle and Business Bay.\n\nThe developer has recently pushed into headline-grabbing territory with Tiger Sky Tower, a 532-metre, 122-floor residential supertall in Business Bay announced in 2024, alongside a steady pipeline of mid-market deliveries including Nobles Tower and the Cloud Towers, both handed over on schedule.",
+      "website": "https://www.tigergroup.ae",
+      "projects": [
+        {
+          "slug": "tiger-sky-tower",
+          "name": "Tiger Sky Tower",
+          "developerSlug": "tiger-properties",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "priceFromAED": 2600000,
+          "handover": "Q4 2028",
+          "description": "Tiger Sky Tower is a 532-metre, 122-floor residential supertall in Business Bay, announced in 2024 as a billion-dollar project. Its headline features include the world's highest residential rainforest, a sky restaurant, an ultra-high infinity pool and what the developer bills as the highest penthouse in the world.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "nobles-tower",
+          "name": "Nobles Tower",
+          "developerSlug": "tiger-properties",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "Nobles Tower is a completed 549-unit high-rise in Business Bay offering one- to three-bedroom apartments with Burj Khalifa and canal views. Handed over in late 2024, it is one of the delivered projects Tiger Properties points to as evidence of its on-time track record.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "volga-tower",
+          "name": "Volga Tower",
+          "developerSlug": "tiger-properties",
+          "area": "Jumeirah Village Triangle",
+          "areaSlug": "jumeirah-village-triangle",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q4 2026",
+          "description": "Volga Tower is a 40-plus storey residence in Jumeirah Village Triangle offering fully furnished one- to four-bedroom apartments, many with private pools. Its long post-handover payment plan is among the most extended offered in the district.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "red-square-tower",
+          "name": "Red Square Tower",
+          "developerSlug": "tiger-properties",
+          "area": "Jumeirah Village Triangle",
+          "areaSlug": "jumeirah-village-triangle",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Q4 2026",
+          "description": "Red Square Tower comprises twin 34-floor towers in Jumeirah Village Triangle with furnished studios to two-bedroom apartments. Launched at aggressive entry prices, it targets investors seeking rental yield in one of Dubai's fastest-growing value districts.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "neva-residences",
+          "name": "Neva Residences",
+          "developerSlug": "tiger-properties",
+          "area": "Jumeirah Village Circle",
+          "areaSlug": "jumeirah-village-circle",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "Neva Residences is a 17-storey building in Jumeirah Village Circle offering furnished studios to two-bedroom apartments, delivered with a post-handover payment option. The project reached handover in 2025 as part of Tiger's steady JVC pipeline.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "cloud-tower",
+          "name": "Cloud Tower",
+          "developerSlug": "tiger-properties",
+          "area": "Jumeirah Village Triangle",
+          "areaSlug": "jumeirah-village-triangle",
+          "status": "ready",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "Cloud Tower is a completed twin-tower development in Jumeirah Village Triangle with studios to three-bedroom apartments plus sports amenities including a tennis court. Tiger Properties completed the official handover of the towers in October 2025.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "jade-tower",
+          "name": "Jade Tower",
+          "developerSlug": "tiger-properties",
+          "area": "Majan",
+          "areaSlug": "majan",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Q1 2027",
+          "description": "Jade Tower is a 28-floor, 434-unit residence in Majan, Dubailand, composed of 90 studios, 252 one-bedroom and 92 two-bedroom apartments. The project extends Tiger's value formula into an emerging district beside Sheikh Mohammed Bin Zayed Road.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "ellington-properties",
+      "name": "Ellington Properties",
+      "rank": 23,
+      "segment": "boutique",
+      "founded": "2014",
+      "headline": "Dubai's design-led boutique developer, crafting architecture-first residences since 2014.",
+      "description": "Ellington Properties was founded in Dubai in 2014 by Joseph Thomas and Robert Booth and has built its reputation on a design-first approach, with interiors and architecture treated as the product rather than an afterthought. From its base in Business Bay, the company has grown into one of the emirate's most recognisable boutique names, with a portfolio spanning Palm Jumeirah, Dubai Hills Estate, Mohammed Bin Rashid City, Jumeirah Village Circle and Dubai Islands.\n\nThe developer is known for its 'Ellington aesthetic' — muted palettes, curated amenities and gallery-like common spaces — applied across apartment towers, beachfront residences and villa enclaves. Alongside its Dubai pipeline, Ellington has expanded to Ras Al Khaimah while continuing to deliver a steady cadence of projects, from attainable studios in emerging districts to ultra-luxury lagoon villas.",
+      "website": "https://ellingtonproperties.ae",
+      "projects": [
+        {
+          "slug": "ellington-cove",
+          "name": "Ellington Cove",
+          "developerSlug": "ellington-properties",
+          "area": "Dubai Islands",
+          "areaSlug": "dubai-islands",
+          "status": "off-plan",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Q4 2028",
+          "description": "Ellington Cove is the developer's beachfront community on Dubai Islands, comprising low-rise buildings with direct beach access. Residences range from one- to three-bedroom apartments along with penthouses and duplexes, wrapped in the brand's signature resort-style amenities.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "ellington-the-sanctuary",
+          "name": "The Sanctuary",
+          "developerSlug": "ellington-properties",
+          "area": "Mohammed Bin Rashid City",
+          "areaSlug": "mohammed-bin-rashid-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "Villa"
+          ],
+          "description": "The Sanctuary is Ellington's ultra-luxury villa community in District 11 of Mohammed Bin Rashid City, arranged around a swimmable crystal lagoon. The masterplan includes gated villa enclaves such as the Waterside villas and the Lakeshore cluster, positioning it among the developer's most exclusive addresses.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "belgravia-gardens",
+          "name": "Belgravia Gardens",
+          "developerSlug": "ellington-properties",
+          "area": "Dubailand",
+          "areaSlug": "dubailand",
+          "status": "off-plan",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q3 2028",
+          "paymentPlan": "70/30",
+          "description": "Belgravia Gardens extends Ellington's long-running Belgravia line into Dubailand as a low-rise residential complex of studios to three-bedroom homes, including duplex layouts. The project pairs garden-style landscaping with urban-beach and wellness amenities aimed at end users.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "one-river-point",
+          "name": "One River Point",
+          "developerSlug": "ellington-properties",
+          "area": "Business Bay",
+          "areaSlug": "business-bay",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Q3 2028",
+          "description": "One River Point is a 45-storey tower on the Dubai Water Canal edge of Business Bay, with views toward Burj Khalifa. It offers studios to three-bedroom apartments plus duplexes and penthouses with private pools, in one of Ellington's most prominent central Dubai locations.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "the-hillgate",
+          "name": "The Hillgate",
+          "developerSlug": "ellington-properties",
+          "area": "Dubai Silicon Oasis",
+          "areaSlug": "dubai-silicon-oasis",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q2 2027",
+          "paymentPlan": "70/30",
+          "description": "The Hillgate marks Ellington's first project in Dubai Silicon Oasis, bringing its design-led formula to one of the city's established tech-and-residential districts. The development spans two towers with around 356 residences from one to three bedrooms.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "ellington-ocean-house",
+          "name": "Ocean House",
+          "developerSlug": "ellington-properties",
+          "area": "Palm Jumeirah",
+          "areaSlug": "palm-jumeirah",
+          "status": "under-construction",
+          "unitTypes": [
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "description": "Ocean House is Ellington's ultra-luxury beachfront address on Palm Jumeirah, offering large-format apartments and penthouses with sea views. The project targets the top end of the market with hotel-grade amenities and finishes.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "ellington-beach-house",
+          "name": "Ellington Beach House",
+          "developerSlug": "ellington-properties",
+          "area": "Palm Jumeirah",
+          "areaSlug": "palm-jumeirah",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "Penthouse"
+          ],
+          "handover": "Ready",
+          "description": "Ellington Beach House is a completed beachfront residence on the East Crescent of Palm Jumeirah, with private beach access and a country-club style amenity deck. It was one of the projects that established Ellington's credentials in the luxury resort-residential segment.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "ellington-upper-house",
+          "name": "Upper House",
+          "developerSlug": "ellington-properties",
+          "area": "Jumeirah Lake Towers",
+          "areaSlug": "jumeirah-lake-towers",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "description": "Upper House is a high-rise development in Jumeirah Lake Towers created in partnership with DMCC, comprising roughly 754 residences from studios to three bedrooms. Homes look out over Jumeirah Islands and the Dubai Marina skyline, with extensive lifestyle amenities across podium and rooftop levels.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "mira-developments",
+      "name": "Mira Developments",
+      "rank": 24,
+      "segment": "boutique",
+      "founded": "2023",
+      "headline": "Branded-residence specialist pairing Italian fashion houses with fully furnished homes.",
+      "description": "Mira Developments was founded in Dubai in 2023 by Timur Mamaikhanov and Tamara Getigezheva, and quickly carved out a niche in branded, fully furnished residences. Its debut launches in early 2024 — Trussardi Residences in Al Furjan and Mira Villas designed by Bentley Home in Meydan's District 11 — set the template: move-in-ready homes furnished by international luxury houses.\n\nThe developer has since broadened its Dubai pipeline with projects such as the John Richmond-branded Richmond District, while partnering with master developer Marjan on a multi-branded waterfront community in Ras Al Khaimah. Across the portfolio, the emphasis remains on turnkey interiors, designer collaborations and lifestyle-led communities.",
+      "website": "https://miradevelopments.ae",
+      "projects": [
+        {
+          "slug": "trussardi-residences",
+          "name": "Trussardi Residences",
+          "developerSlug": "mira-developments",
+          "area": "Al Furjan",
+          "areaSlug": "al-furjan",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "description": "Trussardi Residences in Al Furjan was Mira Developments' debut project and among Dubai's first residences branded by the Italian fashion house Trussardi. The building comprises around 140 fully furnished one- and two-bedroom apartments with high ceilings, and select units feature private terrace pools.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "trussardi-residences-phase-2",
+          "name": "Trussardi Residences Phase II",
+          "developerSlug": "mira-developments",
+          "area": "Al Furjan",
+          "areaSlug": "al-furjan",
+          "status": "off-plan",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "description": "Following the sell-through of the first phase, Trussardi Residences Phase II expands the branded concept in the Al Furjan and Discovery Gardens corridor. The phase adds studios and one- to two-bedroom apartments, again delivered fully furnished with Trussardi Casa interiors.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "mira-villas-designed-by-bentley-home",
+          "name": "Mira Villas designed by Bentley Home",
+          "developerSlug": "mira-developments",
+          "area": "Mohammed Bin Rashid City",
+          "areaSlug": "mohammed-bin-rashid-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "Villa"
+          ],
+          "handover": "Q4 2026",
+          "description": "Mira Villas is a gated lagoon-front community in District 11, Meydan, comprising 36 five-bedroom residences — 27 villas and 9 mansions — each furnished by Bentley Home. Buyers choose between three interior styles, and homes are delivered turnkey with premium appliance and tableware brands included.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "richmond-district",
+          "name": "Richmond District",
+          "developerSlug": "mira-developments",
+          "area": "Al Furjan",
+          "areaSlug": "al-furjan",
+          "status": "off-plan",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Q1 2028",
+          "description": "Richmond District brings Dubai's first residences branded by John Richmond to the Al Furjan area. The development offers studios and one- to two-bedroom apartments with fashion-led interiors, continuing Mira's strategy of pairing each project with an international design house.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "object-1",
+      "name": "Object 1",
+      "rank": 25,
+      "segment": "boutique",
+      "founded": "2022",
+      "headline": "TSZ Group's fast-scaling Dubai developer, known for design-led towers across JVC and JVT.",
+      "description": "Object 1 was established in Dubai in 2022 as the development arm of the international TSZ Group, whose real estate track record dates back to 2010 in Europe. Founded by Egor Maslennikov, the company positions its buildings as 'contemporary art galleries', combining bold architecture with smart-home features and unusually deep amenity stacks for the mid-market.\n\nThe developer concentrates on high-growth residential corridors such as Jumeirah Village Circle, Jumeirah Village Triangle, Jumeirah Garden City and Dubai Land Residence Complex, and has grown into one of the most active launch pipelines in these districts. In March 2026 it completed RA1N Residence in JVC, an early delivery milestone in a portfolio of more than two dozen active projects.",
+      "website": "https://object-1.com",
+      "projects": [
+        {
+          "slug": "alta-view-skyhomes",
+          "name": "Alta View Skyhomes",
+          "developerSlug": "object-1",
+          "area": "Jumeirah Village Circle",
+          "areaSlug": "jumeirah-village-circle",
+          "status": "off-plan",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "priceFromAED": 748000,
+          "handover": "Q4 2028",
+          "description": "Alta View Skyhomes is a 54-storey tower in District 10 of Jumeirah Village Circle and one of Object 1's tallest projects to date. It features a dual-pool concept with a lagoon pool at podium level and a sky infinity pool on the roof, with residences spanning studios to two-bedroom apartments.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "ra1n-residence",
+          "name": "RA1N Residence",
+          "developerSlug": "object-1",
+          "area": "Jumeirah Village Circle",
+          "areaSlug": "jumeirah-village-circle",
+          "status": "ready",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Ready",
+          "description": "RA1N Residence is a completed 25-storey tower in District 12 of Jumeirah Village Circle, announced as 100% finished by Object 1 in March 2026. The building contains 144 homes, from one- and two-bedroom apartments to top-floor units with private jacuzzis.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "lum1nar-tower",
+          "name": "LUM1NAR Tower",
+          "developerSlug": "object-1",
+          "area": "Jumeirah Village Triangle",
+          "areaSlug": "jumeirah-village-triangle",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Q3 2026",
+          "description": "LUM1NAR Tower is an Object 1 residential development in Jumeirah Village Triangle offering studios and one- to two-bedroom apartments. The project follows the developer's amenity-rich formula and is in its final construction phase ahead of handover.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "evergr1n-house",
+          "name": "EVERGR1N House",
+          "developerSlug": "object-1",
+          "area": "Jumeirah Garden City",
+          "areaSlug": "jumeirah-garden-city",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "description": "EVERGR1N House brings Object 1 to Jumeirah Garden City in Al Satwa, close to central Dubai and Sheikh Zayed Road. The project comprises 219 residences across studios and one- to two-bedroom layouts, and its success prompted a second phase, EVERGR1N House 2, in the same district.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "tetr1s-tower",
+          "name": "TETR1S Tower",
+          "developerSlug": "object-1",
+          "area": "Jumeirah Village Circle",
+          "areaSlug": "jumeirah-village-circle",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Q2 2027",
+          "description": "TETR1S Tower in District 13 of Jumeirah Village Circle takes its name and facade concept from the classic block game. The tower offers fully finished studios and one- to two-and-a-half-bedroom apartments aimed at both investors and end users.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "w1nner-tower",
+          "name": "W1NNER Tower",
+          "developerSlug": "object-1",
+          "area": "Jumeirah Village Triangle",
+          "areaSlug": "jumeirah-village-triangle",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "description": "W1NNER Tower is a sport- and wellness-themed residential tower in District 4 of Jumeirah Village Triangle. It offers contemporary one- and two-bedroom apartments, including 1.5-bedroom hybrid layouts, supported by fitness-focused amenities.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "v1ter-residence",
+          "name": "V1TER Residence",
+          "developerSlug": "object-1",
+          "area": "Jumeirah Village Circle",
+          "areaSlug": "jumeirah-village-circle",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "description": "V1TER Residence is a 25-storey tower in District 12 of Jumeirah Village Circle with 175 fully furnished homes — 34 studios, 91 one-bedroom, 42 two-bedroom and 8 three-bedroom apartments. Amenities include a clubhouse, leisure pool, kids' cinema and a large fitness floor.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    },
+    {
+      "slug": "zoya",
+      "name": "ZOYA",
+      "rank": 26,
+      "segment": "boutique",
+      "headline": "Fully furnished, attainably priced communities across Dubai's growth corridors.",
+      "description": "Zoya Developments is the Dubai arm of an Indian developer backed by the Columbia Group and led by chairman Farooq Khan, with more than fourteen years of homebuilding experience in India. It entered the UAE in 2024 with a publicly announced investment plan of over AED 2 billion across three years, opening an Experience Centre in Business Bay to anchor its regional expansion.\n\nThe developer focuses on fully furnished, attainably priced apartments in emerging districts — Al Furjan, Dubai South and Dubai Land Residence Complex — typically sold with extended post-handover payment plans. Early projects such as Pristine, Miorah and Calisi combine smart-home features and Vastu-informed layouts, with a stated pipeline of further launches through 2026.",
+      "website": "https://www.zoyadevelopments.ae",
+      "projects": [
+        {
+          "slug": "pristine-by-zoya",
+          "name": "Pristine by Zoya",
+          "developerSlug": "zoya",
+          "area": "Al Furjan",
+          "areaSlug": "al-furjan",
+          "status": "under-construction",
+          "unitTypes": [
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom"
+          ],
+          "handover": "Q1 2027",
+          "paymentPlan": "60/40 with post-handover instalments",
+          "description": "Pristine is Zoya Developments' first Dubai project, a mid-rise building in Al Furjan close to the metro station. It offers one- to three-bedroom apartments designed with Vastu principles, smart-home systems and energy-saving features, sold on an extended post-handover plan.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "miorah-by-zoya",
+          "name": "Miorah by Zoya",
+          "developerSlug": "zoya",
+          "area": "Dubai South",
+          "areaSlug": "dubai-south",
+          "status": "under-construction",
+          "unitTypes": [
+            "Studio",
+            "2 Bedroom"
+          ],
+          "priceFromAED": 640000,
+          "handover": "Q3 2027",
+          "description": "Miorah is Zoya's debut project in Dubai South, a boutique collection of 60 fully furnished residences comprising 28 studios and 32 two-bedroom apartments. Valued at AED 37.5 million, the development targets investors and end users seeking turnkey homes near Al Maktoum International Airport.",
+          "featured": true,
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "calisi-by-zoya",
+          "name": "Calisi by Zoya",
+          "developerSlug": "zoya",
+          "area": "Dubai South",
+          "areaSlug": "dubai-south",
+          "status": "under-construction",
+          "unitTypes": [
+            "2 Bedroom"
+          ],
+          "priceFromAED": 686000,
+          "handover": "Q3 2027",
+          "description": "Calisi is Zoya Developments' second Dubai South project, an AED 80 million residential building of fully furnished two-bedroom apartments. Construction began roughly a month after the official launch, underlining the developer's build-fast approach in the district.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "nuve-by-zoya",
+          "name": "Nuvé by Zoya",
+          "developerSlug": "zoya",
+          "area": "Dubai Land Residence Complex",
+          "areaSlug": "dubai-land-residence-complex",
+          "status": "off-plan",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "priceFromAED": 695000,
+          "handover": "Q2 2028",
+          "description": "Nuvé extends Zoya's fully furnished formula to Dubai Land Residence Complex, with studios and one- to two-bedroom apartments positioned between Emirates Road and the Dubai–Al Ain Road. The project is pitched at yield-focused investors in one of Dubailand's fastest-growing pockets.",
+          "heroImage": "/img/placeholders/project.svg"
+        },
+        {
+          "slug": "izel-by-zoya",
+          "name": "Izel by Zoya",
+          "developerSlug": "zoya",
+          "area": "Dubai Land Residence Complex",
+          "areaSlug": "dubai-land-residence-complex",
+          "status": "off-plan",
+          "unitTypes": [
+            "Studio",
+            "1 Bedroom",
+            "2 Bedroom"
+          ],
+          "handover": "Q3 2028",
+          "description": "Izel is a second Zoya Developments launch in Dubai Land Residence Complex, offering studios and one- to two-bedroom apartments for sale off-plan. It continues the developer's focus on compact, furnished homes in emerging residential districts.",
+          "heroImage": "/img/placeholders/project.svg"
+        }
+      ],
+      "heroImage": "/img/placeholders/developer.svg"
+    }
   ]
 }
