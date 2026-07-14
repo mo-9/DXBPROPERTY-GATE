@@ -29,27 +29,34 @@ Built to the DXBPROPERTY GATE technical brief.
 /api/lead                  Lead capture endpoint
 ```
 
-## Data — IMPORTANT
+## Data
 
-`src/data/developers.json` currently contains a **seed dataset**: only the facts
-pinned by the brief itself (the 26 developer slugs/names/ranks/segments from
-§14 and the Appendix A Emaar worked example). **No real-world data has been
-fabricated** — projects, prices, handover dates, permits, stats, headlines and
-descriptions for the other 25 developers are intentionally absent and their
-pages render gracefully without them.
+`src/data/developers.json` contains a **researched dataset (compiled July
+2026)**: 26 developers and 175 real projects across 62 areas, sourced from
+official developer websites and corroborating market coverage. Prices,
+handover dates and payment plans appear only where published by the developer
+or a reliable current source — absent fields are unverified, never guessed
+(brief §12). `src/data/market.json` carries the DLD-reported full-year 2025
+figures (AED 917bn+, 270k+ transactions, 193,100 active investors) per Dubai
+Media Office / DOF press releases.
 
-**To light up the full site, replace `src/data/developers.json` with the
-supplied dataset** (schema in `src/lib/types.ts`, validated with zod at build
-time — a malformed file fails the build). The same applies to
-`src/data/market.json` (homepage market-context strip: hidden until verified
-figures are supplied) and the placeholder hero art in `public/img/placeholders/`.
+The file remains fully swappable: replace it with an updated dataset any time
+(schema in `src/lib/types.ts`, zod-validated at build — a malformed file fails
+the build). Hero imagery is placeholder art in `public/img/placeholders/`,
+swappable per entity via the data file.
 
-Notes on two schema fields (flagged per brief §0):
+Editorial notes:
 
+- Off-plan figures (prices, quarters, plans) are snapshots and should be
+  re-verified against the developer/DLD on a regular cadence.
+- ZOYA (rank 26) was matched to Zoya Developments (zoyadevelopments.ae) —
+  confirm this is the intended client entity; its segment is a curated
+  classification ("boutique"), marked TBD in the original brief.
+- Non-Dubai projects surfaced in research (Aldar's Abu Dhabi communities,
+  Mira's Ras Al Khaimah JV) were excluded — the platform is scoped to the
+  Dubai market (§1).
 - `Developer.segment`, `headline`, `description` are optional in the TS type
-  because the brief marks ZOYA's segment/profile "TO BE SUPPLIED" and the
-  no-fabrication rule forbids inventing editorial copy. Pages omit missing
-  fields; nothing is guessed.
+  so an incomplete future dataset still builds; pages omit missing fields.
 
 ## Lead capture
 

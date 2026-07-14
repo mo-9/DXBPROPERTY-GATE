@@ -10,6 +10,10 @@ import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Ticker } from "@/components/Ticker";
 import { developers, featuredProjects } from "@/lib/data";
+
+// Curated strip (§7.1.6): the dataset flags many flagships; the homepage
+// shows the first six in index order to stay a strip, not a grid dump.
+const homeFeatured = featuredProjects.slice(0, 6);
 import { buildMetadata } from "@/lib/seo";
 
 export const revalidate = 86400; // ISR (§3)
@@ -61,7 +65,7 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* Featured projects (§7.1.6) */}
-      {featuredProjects.length > 0 && (
+      {homeFeatured.length > 0 && (
         <section className="border-t border-line bg-surface/40 section-pad">
           <div className="container-gate">
             <Reveal>
@@ -72,7 +76,7 @@ export default async function HomePage({ params }: Props) {
               />
             </Reveal>
             <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {featuredProjects.map((project, i) => (
+              {homeFeatured.map((project, i) => (
                 <Reveal key={project.slug} delay={i * 0.06}>
                   <ProjectCard project={project} />
                 </Reveal>

@@ -1,6 +1,6 @@
 {
-  "$comment": "Verified market stats for the homepage context strip (§7.1.4). Supplied separately — the strip stays hidden until real values are provided. Never guess these.",
-  "transactionValue2025AED": null,
-  "dealCount2025": null,
-  "activeInvestors2025": null
+  "$comment": "Verified market stats for the homepage context strip (SS7.1.4). Full-year 2025 figures per Dubai Media Office / Dubai DOF press releases citing DLD (Jan 2026): AED 917bn+ across 270,000+ transactions, 193,100 active investors.",
+  "transactionValue2025AED": 917000000000,
+  "dealCount2025": 270000,
+  "activeInvestors2025": 193100
 }
