@@ -1,0 +1,56 @@
+{
+  "$comment": "SEED DATASET — replace with the full supplied developers.json (brief §5/§12/§14). Only facts pinned by the brief are present: the 26 slugs/names/ranks/segments (§14) and the Emaar worked example (Appendix A) minus its '<verify>' fields. Nothing here is fabricated; missing fields are omitted, never guessed. Hero images point at swappable placeholder art (§12).",
+  "developers": [
+    {
+      "slug": "emaar-properties",
+      "name": "Emaar Properties",
+      "rank": 1,
+      "segment": "master",
+      "founded": "1997",
+      "headline": "The developer behind Dubai's skyline.",
+      "description": "Emaar is Dubai's largest developer and the master-planner of Downtown Dubai, home to the Burj Khalifa. Its communities span the city from the marina to the desert, and are known for build quality, deep resale liquidity, and integrated amenities.",
+      "heroImage": "/img/placeholders/developer.svg",
+      "website": "https://www.emaar.com",
+      "projects": [
+        {
+          "slug": "downtown-dubai",
+          "name": "Downtown Dubai",
+          "developerSlug": "emaar-properties",
+          "area": "Downtown Dubai",
+          "areaSlug": "downtown-dubai",
+          "status": "ready",
+          "unitTypes": ["1 Bedroom", "2 Bedroom", "3 Bedroom", "Penthouse"],
+          "handover": "Ready",
+          "description": "Emaar's flagship district, anchored by the Burj Khalifa and Dubai Opera, with branded residences and Address hotels around the fountain.",
+          "heroImage": "/img/placeholders/project.svg",
+          "featured": true
+        }
+      ]
+    },
+    { "slug": "nakheel", "name": "Nakheel", "rank": 2, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "sobha-realty", "name": "Sobha Realty", "rank": 3, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "meraas", "name": "Meraas", "rank": 4, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "dubai-properties", "name": "Dubai Properties", "rank": 5, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "nshama", "name": "Nshama", "rank": 6, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "meydan", "name": "Meydan Group", "rank": 7, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "wasl", "name": "wasl", "rank": 8, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "aldar-properties", "name": "Aldar Properties", "rank": 9, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "expo-city-dubai", "name": "Expo City Dubai", "rank": 10, "segment": "master", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "damac-properties", "name": "DAMAC Properties", "rank": 11, "segment": "luxury", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "omniyat", "name": "OMNIYAT", "rank": 12, "segment": "luxury", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "select-group", "name": "Select Group", "rank": 13, "segment": "luxury", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "mag", "name": "MAG", "rank": 14, "segment": "luxury", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "beyond", "name": "Beyond", "rank": 15, "segment": "luxury", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "binghatti", "name": "Binghatti", "rank": 16, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "azizi-developments", "name": "Azizi Developments", "rank": 17, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "danube-properties", "name": "Danube Properties", "rank": 18, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "samana-developers", "name": "Samana Developers", "rank": 19, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "deyaar-development", "name": "Deyaar Development", "rank": 20, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "union-properties", "name": "Union Properties", "rank": 21, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "tiger-properties", "name": "Tiger Properties", "rank": 22, "segment": "value", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "ellington-properties", "name": "Ellington Properties", "rank": 23, "segment": "boutique", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "mira-developments", "name": "Mira Developments", "rank": 24, "segment": "boutique", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "object-1", "name": "Object 1", "rank": 25, "segment": "boutique", "heroImage": "/img/placeholders/developer.svg", "projects": [] },
+    { "slug": "zoya", "name": "ZOYA", "rank": 26, "heroImage": "/img/placeholders/developer.svg", "projects": [] }
+  ]
+}

@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ */
+/* Design tokens — §6 (dark luxury, warm espresso base, champagne gold) */
+/* ------------------------------------------------------------------ */
+:root {
+  --bg: #0f0d0a;
+  --surface: #17130f;
+  --surface-2: #1e1813;
+  --line: #2c241b;
+  --line-strong: #3a2f22;
+  --text: #f4eee3;
+  --text-dim: #b6a587;
+  --text-mute: #7c6e58;
+  --gold: #c6a15b;
+  --gold-bright: #dfc183;
+  --gold-deep: #96773c;
+
+  /* Active font stacks — swapped per locale below */
+  --ff-display: var(--font-bodoni), "Bodoni MT", Didot, "Times New Roman", serif;
+  --ff-sans: var(--font-hanken), system-ui, -apple-system, sans-serif;
+  --ff-mono: var(--font-jbmono), ui-monospace, "SF Mono", monospace;
+}
+
+html[lang="ar"] {
+  --ff-display: var(--font-amiri), "Amiri", "Noto Naskh Arabic", serif;
+  --ff-sans: var(--font-plexar), "IBM Plex Sans Arabic", system-ui, sans-serif;
+}
+
+@theme inline {
+  --color-*: initial;
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-bone: var(--text);
+  --color-sand: var(--text-dim);
+  --color-mute: var(--text-mute);
+  --color-gold: var(--gold);
+  --color-gold-bright: var(--gold-bright);
+  --color-gold-deep: var(--gold-deep);
+  --color-black: #000;
+  --color-white: #fff;
+  --color-transparent: transparent;
+
+  --font-display: var(--ff-display);
+  --font-sans: var(--ff-sans);
+  --font-mono: var(--ff-mono);
+}
+
+/* ------------------------------------------------------------------ */
+/* Base                                                                */
+/* ------------------------------------------------------------------ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--ff-sans);
+  font-size: 1.0625rem; /* 17px body, §6 type scale */
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--gold-deep);
+  color: var(--text);
+}
+
+/* Gold focus ring — §11 WCAG AA keyboard visibility */
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Editorial utilities                                                 */
+/* ------------------------------------------------------------------ */
+@utility container-gate {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 76rem;
+  padding-inline: clamp(1.25rem, 4vw, 2.5rem);
+}
+
+@utility section-pad {
+  padding-block: clamp(80px, 12vh, 160px);
+}
+
+/* Mono eyebrow/kicker — 12–13px uppercase, 0.18em tracking (§6) */
+@utility eyebrow {
+  font-family: var(--ff-mono);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+@utility title-hero {
+  font-family: var(--ff-display);
+  font-size: clamp(40px, 8vw, 104px);
+  line-height: 1.04;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+@utility title-section {
+  font-family: var(--ff-display);
+  font-size: clamp(30px, 4.5vw, 56px);
+  line-height: 1.1;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* One warm radial glow behind the hero — nothing else glows (§6) */
+@utility hero-glow {
+  background:
+    radial-gradient(
+      52rem 32rem at 50% -4rem,
+      rgb(198 161 91 / 0.14),
+      rgb(198 161 91 / 0.05) 45%,
+      transparent 70%
+    ),
+    var(--bg);
+}
+
+@utility hairline {
+  border-color: var(--line);
+}
+
+/* ------------------------------------------------------------------ */
+/* Market ticker — CSS keyframes marquee (§6 signature)                */
+/* ------------------------------------------------------------------ */
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-track {
+  display: flex;
+  width: max-content;
+  animation: ticker-scroll 90s linear infinite;
+}
+
+html[dir="rtl"] .ticker-track {
+  animation-direction: reverse;
+}
+
+.ticker:hover .ticker-track,
+.ticker:focus-within .ticker-track {
+  animation-play-state: paused;
+}
+
+/* ------------------------------------------------------------------ */
+/* Reduced motion — fades only, ticker static (§6/§11)                 */
+/* ------------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .ticker-track {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+/* Lenis smooth-scroll integration */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}

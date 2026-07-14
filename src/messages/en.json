@@ -1,0 +1,246 @@
+{
+  "common": {
+    "brand": "DXBPROPERTY GATE",
+    "tagline": "Every Dubai developer. One gate.",
+    "registerInterest": "Register interest",
+    "browseIndex": "Browse the index",
+    "viewAll": "View all",
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "The page you are looking for does not exist or has moved.",
+    "backHome": "Back to the homepage",
+    "skipToContent": "Skip to content"
+  },
+  "nav": {
+    "home": "Home",
+    "developers": "Developers",
+    "areas": "Areas",
+    "about": "About",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "localeSwitch": "العربية",
+    "localeSwitchLabel": "Switch to Arabic"
+  },
+  "hero": {
+    "eyebrow": "The Dubai Developer Index · 2026",
+    "titleLead": "The twenty-six developers",
+    "titleItalic": "defining",
+    "titleTail": "Dubai.",
+    "subhead": "Every major developer and its flagship projects — curated, cross-checked and organised behind one gate."
+  },
+  "ticker": {
+    "label": "Index of Dubai developers"
+  },
+  "market": {
+    "eyebrow": "The market",
+    "transactionValue": "2025 transaction value",
+    "dealCount": "Transactions recorded in 2025",
+    "activeInvestors": "Active investors"
+  },
+  "index": {
+    "eyebrow": "The index",
+    "title": "The Index",
+    "intro": "Dubai's top developers, ordered by scale and market presence. The ranking is curated and indicative — not a strict leaderboard.",
+    "filters": {
+      "all": "All",
+      "master": "Master developers",
+      "luxury": "Luxury & branded",
+      "value": "Value & yield",
+      "boutique": "Boutique & design"
+    },
+    "filterLabel": "Filter developers by segment",
+    "searchLabel": "Search developers",
+    "searchPlaceholder": "Search developers…",
+    "empty": "No developers match this filter.",
+    "profilePending": "Profile to follow"
+  },
+  "segment": {
+    "master": "Master developer",
+    "luxury": "Luxury & branded",
+    "value": "Value & yield",
+    "boutique": "Boutique & design",
+    "tbc": "Segment to be confirmed"
+  },
+  "featured": {
+    "eyebrow": "Selected work",
+    "title": "Featured projects",
+    "intro": "A curated strip across the index — flagship districts and current launches."
+  },
+  "project": {
+    "fromAED": "From AED {price}",
+    "by": "By {developer}",
+    "keyFacts": "Key facts",
+    "status": "Status",
+    "handover": "Handover",
+    "paymentPlan": "Payment plan",
+    "sizeFrom": "Size from",
+    "sqft": "sq ft",
+    "unitTypes": "Unit types",
+    "amenities": "Amenities",
+    "gallery": "Gallery",
+    "location": "Location",
+    "permit": "DLD project permit",
+    "developer": "Developer",
+    "area": "Area",
+    "moreByDeveloper": "More by {developer}",
+    "moreInArea": "More in {area}",
+    "viewProject": "View project",
+    "openInMaps": "Open in Google Maps",
+    "statusValues": {
+      "off-plan": "Off-plan",
+      "under-construction": "Under construction",
+      "ready": "Ready"
+    }
+  },
+  "developer": {
+    "rank": "Index no.",
+    "founded": "Founded",
+    "website": "Website",
+    "projectsTitle": "Projects by {developer}",
+    "noProjects": "Verified projects for this developer will be published here once the dataset is confirmed.",
+    "signatureProjects": "Signature projects",
+    "statsSales": "2025 sales value",
+    "statsUnits": "Units delivered",
+    "statsRoi": "Average ROI",
+    "relatedTitle": "More in this segment",
+    "profilePending": "This developer's full profile is being verified and will be published shortly."
+  },
+  "areas": {
+    "eyebrow": "Area guide",
+    "indexTitle": "Areas",
+    "indexIntro": "Dubai's districts, mapped through the projects in the index.",
+    "projectsIn": "Projects in {area}",
+    "developersIn": "Developers active in {area}",
+    "projectCount": "{count, plural, one {# project} other {# projects}}",
+    "developerCount": "{count, plural, one {# developer} other {# developers}}",
+    "faqTitle": "Frequently asked questions",
+    "faq": {
+      "developersQ": "Which developers are building in {area}?",
+      "developersA": "The index currently lists {developers} with projects in {area}.",
+      "unitsQ": "What types of units are available in {area}?",
+      "unitsA": "Projects listed in {area} currently offer {unitTypes}.",
+      "offPlanQ": "Are there off-plan projects in {area}?",
+      "offPlanAYes": "Yes — the index currently lists {count, plural, one {# off-plan project} other {# off-plan projects}} in {area}.",
+      "offPlanANo": "The index does not currently list any off-plan projects in {area}; the projects shown are ready or under construction.",
+      "verifyQ": "How do I verify a project in {area} before buying?",
+      "verifyA": "Check the project's registration and escrow status with the Dubai Land Department via the official Dubai REST app before any transaction. Every project page on DXBPROPERTY GATE shows its DLD permit number where verified."
+    }
+  },
+  "why": {
+    "eyebrow": "Why the gate",
+    "title": "A quieter way to read the market",
+    "points": {
+      "curated": {
+        "title": "Curated coverage",
+        "body": "Twenty-six developers, up to ten projects each. A deliberate index, not an endless feed."
+      },
+      "verified": {
+        "title": "Verified against DLD",
+        "body": "Prices, permits and handover dates are published only when verified. Missing means unconfirmed — never guessed."
+      },
+      "direct": {
+        "title": "Direct developer routes",
+        "body": "Your interest goes toward the right developer and project, not into a listings bidding war."
+      },
+      "bilingual": {
+        "title": "English and Arabic",
+        "body": "The full index, mirrored right-to-left. One dataset, two languages."
+      }
+    }
+  },
+  "cta": {
+    "title": "Find your place in Dubai.",
+    "body": "Tell us what you are looking for and we will match you to the right developer and project."
+  },
+  "footer": {
+    "mission": "A curated gateway to Dubai's property market — its top developers and their projects, behind one gate.",
+    "navTitle": "Explore",
+    "legalTitle": "Notes",
+    "compliance": "Project data is indicative. Verify licensing and permits via the Dubai Land Department (Dubai REST) before any transaction.",
+    "rights": "© {year} DXBPROPERTY GATE. All rights reserved."
+  },
+  "modal": {
+    "heading": "Find your place in Dubai.",
+    "sub": "Leave your details and we'll match you to the right project.",
+    "name": "Full name",
+    "namePlaceholder": "Your full name",
+    "nameError": "Enter your full name so we know who to ask for.",
+    "phone": "Mobile number",
+    "phonePlaceholder": "+971 50 000 0000",
+    "phoneError": "Enter a mobile number so we can reach you.",
+    "interest": "Interested in",
+    "interestPlaceholder": "Select a unit type",
+    "interestError": "Choose the unit type you're interested in.",
+    "submit": "Register interest",
+    "submitting": "Sending…",
+    "successTitle": "You're on the list.",
+    "successBody": "We'll be in touch shortly.",
+    "genericError": "Something went wrong on our side. Try again in a moment.",
+    "close": "Close dialog"
+  },
+  "unitTypes": {
+    "Studio": "Studio",
+    "1 Bedroom": "1 Bedroom",
+    "2 Bedroom": "2 Bedroom",
+    "3 Bedroom": "3 Bedroom",
+    "Townhouse": "Townhouse",
+    "Twin house": "Twin house",
+    "Penthouse": "Penthouse",
+    "Villa": "Villa",
+    "Commercial unit": "Commercial unit",
+    "Administrative office": "Administrative office"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "developers": "Developers",
+    "areas": "Areas",
+    "label": "Breadcrumb"
+  },
+  "developersPage": {
+    "title": "The twenty-six",
+    "intro": "Every developer in the index — filter by segment or search by name."
+  },
+  "about": {
+    "title": "One gate to the Dubai market",
+    "intro": "DXBPROPERTY GATE is a curated index of Dubai's top developers and their projects — built for buyers and investors who want the market organised, not advertised.",
+    "how": {
+      "title": "How it works",
+      "body1": "We organise the market by its makers. Each of the twenty-six developers in the index has its own profile, its flagship projects, and the areas it builds in — all cross-linked so you can move from a district to a developer to a launch in two clicks.",
+      "body2": "When something interests you, register your interest. We route it toward the right developer and project — no listing portals, no bidding for your attention."
+    },
+    "trust": {
+      "title": "What we publish, and what we don't",
+      "body1": "Prices, handover dates, payment plans and permit numbers appear only when verified against official sources, including the Dubai Land Department. If a figure is missing, it is unconfirmed — we leave it out rather than guess.",
+      "body2": "DXBPROPERTY GATE is a discovery platform, not a broker of record for any transaction. Always verify a project's licensing and escrow via the Dubai Land Department (Dubai REST) before you commit."
+    }
+  },
+  "meta": {
+    "home": {
+      "title": "DXBPROPERTY GATE — The Dubai Developer Index",
+      "description": "Dubai's top 26 developers and their flagship projects, curated in one gate. Browse master, luxury, value and boutique developers — verified against the DLD."
+    },
+    "developers": {
+      "title": "All Dubai developers — the index of 26",
+      "description": "Browse Dubai's top 26 property developers by segment: master developers, luxury & branded, value & yield, boutique & design."
+    },
+    "developer": {
+      "title": "{developer} — projects, profile & track record",
+      "description": "Explore {developer}: developer profile, current and delivered projects in Dubai, and how to register interest directly."
+    },
+    "project": {
+      "title": "{project} by {developer} — {area}, Dubai",
+      "description": "{project} in {area} by {developer}: unit types, status and verified key facts. Register interest on DXBPROPERTY GATE."
+    },
+    "area": {
+      "title": "{area} property — projects & developers",
+      "description": "Projects and developers in {area}, Dubai: what's off-plan, under construction and ready, with verified facts only."
+    },
+    "areasIndex": {
+      "title": "Dubai areas — projects by district",
+      "description": "Browse Dubai property by area: every district referenced in the developer index, with its projects and active developers."
+    },
+    "about": {
+      "title": "About DXBPROPERTY GATE",
+      "description": "What DXBPROPERTY GATE is, how the developer index is curated, and how we verify project data against the Dubai Land Department."
+    }
+  }
+}
