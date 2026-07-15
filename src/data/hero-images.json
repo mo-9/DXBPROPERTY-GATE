@@ -1,5 +1,5 @@
 {
-  "$comment": "Landmark photography for the homepage hero + gallery strip. Drop real, licensed photos into public/img/dubai/ using these filenames — entries whose file is missing are skipped automatically at build time. Order matters: first existing image leads the hero slideshow.",
+  "$comment": "Landmark photography for the homepage hero + gallery strip. Drop real, licensed photos into public/img/dubai/ using these basenames in ANY common format (.jpg/.jpeg/.avif/.webp/.png — e.g. burj-khalifa-night.avif works) — entries whose file is missing are skipped automatically at build time. Order matters: first existing image leads the hero slideshow.",
   "images": [
     { "src": "/img/dubai/burj-khalifa-night.jpg", "altEn": "Burj Khalifa and Downtown Dubai illuminated at night", "altAr": "برج خليفة ووسط مدينة دبي مضاءً ليلًا", "night": true },
     { "src": "/img/dubai/burj-al-arab.jpg", "altEn": "Burj Al Arab on the Jumeirah shoreline", "altAr": "برج العرب على شاطئ جميرا", "night": false },
