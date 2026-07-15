@@ -76,7 +76,7 @@ export function Header() {
           >
             {t("nav.localeSwitch")}
           </Link>
-          <RegisterInterestButton className="border border-gold px-5 py-2 text-sm text-gold transition-colors hover:border-gold-bright hover:text-gold-bright">
+          <RegisterInterestButton className="border border-gold bg-white/70 px-5 py-2 text-sm text-gold backdrop-blur-sm transition-colors hover:border-gold-bright hover:text-gold-bright">
             {t("common.registerInterest")}
           </RegisterInterestButton>
         </nav>

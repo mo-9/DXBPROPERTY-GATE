@@ -28,7 +28,13 @@ export function HomeHero({
     <section className="hero-glow relative flex min-h-svh items-center">
       <HeroBackdrop images={images} />
       <div className="container-gate relative pt-28 pb-24 md:pt-32">
+        {/* Soft white glow behind the copy only — keeps the photo vivid elsewhere */}
+        <div
+          aria-hidden="true"
+          className="absolute -inset-x-10 inset-y-0 -z-0 bg-[radial-gradient(55%_70%_at_28%_52%,rgb(255_255_255/0.80),rgb(255_255_255/0.45)_55%,transparent_78%)] blur-sm rtl:bg-[radial-gradient(55%_70%_at_72%_52%,rgb(255_255_255/0.80),rgb(255_255_255/0.45)_55%,transparent_78%)]"
+        />
         <motion.div
+          className="relative"
           initial="hidden"
           animate="show"
           transition={{ staggerChildren: 0.09 }}
@@ -66,7 +72,7 @@ export function HomeHero({
             </RegisterInterestButton>
             <Link
               href="/developers"
-              className="border border-line-strong px-7 py-3.5 text-bone transition-colors hover:border-gold hover:text-gold"
+              className="border border-line-strong bg-white/60 px-7 py-3.5 text-bone backdrop-blur-sm transition-colors hover:border-gold hover:text-gold"
             >
               {t("common.browseIndex")}
             </Link>
