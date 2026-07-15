@@ -13,6 +13,16 @@
     { "src": "/img/dubai/burj-khalifa-day.jpg", "altEn": "Burj Khalifa rising over Downtown Dubai", "altAr": "برج خليفة يعلو وسط مدينة دبي", "night": false },
     { "src": "/img/dubai/burj-al-arab-night.jpg", "altEn": "Burj Al Arab illuminated at night", "altAr": "برج العرب مضاءً ليلًا", "night": true },
     { "src": "/img/dubai/dubai-skyline-night.jpg", "altEn": "Dubai skyline along Sheikh Zayed Road at night", "altAr": "أفق دبي على شارع الشيخ زايد ليلًا", "night": true },
-    { "src": "/img/dubai/dubai-creek-harbour.jpg", "altEn": "Dubai Creek Harbour skyline at sunset", "altAr": "أفق خور دبي عند الغروب", "night": false }
+    { "src": "/img/dubai/dubai-creek-harbour.jpg", "altEn": "Dubai Creek Harbour skyline at sunset", "altAr": "أفق خور دبي عند الغروب", "night": false },
+    { "src": "/img/dubai/dubai-city-1.jpg", "altEn": "Dubai cityscape", "altAr": "مشهد من مدينة دبي", "night": false },
+    { "src": "/img/dubai/dubai-city-2.jpg", "altEn": "Dubai cityscape", "altAr": "مشهد من مدينة دبي", "night": false },
+    { "src": "/img/dubai/dubai-city-3.jpg", "altEn": "Dubai cityscape", "altAr": "مشهد من مدينة دبي", "night": false },
+    { "src": "/img/dubai/dubai-city-4.jpg", "altEn": "Dubai cityscape", "altAr": "مشهد من مدينة دبي", "night": false },
+    { "src": "/img/dubai/dubai-city-5.jpg", "altEn": "Dubai cityscape", "altAr": "مشهد من مدينة دبي", "night": false },
+    { "src": "/img/dubai/dubai-city-6.jpg", "altEn": "Dubai cityscape", "altAr": "مشهد من مدينة دبي", "night": false },
+    { "src": "/img/dubai/dubai-city-7.jpg", "altEn": "Dubai cityscape", "altAr": "مشهد من مدينة دبي", "night": false },
+    { "src": "/img/dubai/dubai-city-8.jpg", "altEn": "Dubai cityscape", "altAr": "مشهد من مدينة دبي", "night": false },
+    { "src": "/img/dubai/dubai-city-9.jpg", "altEn": "Dubai cityscape", "altAr": "مشهد من مدينة دبي", "night": false },
+    { "src": "/img/dubai/dubai-city-10.jpg", "altEn": "Dubai cityscape", "altAr": "مشهد من مدينة دبي", "night": false }
   ]
 }
