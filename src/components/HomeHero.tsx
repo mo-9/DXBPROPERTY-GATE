@@ -3,13 +3,19 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { HeroBackdrop } from "./HeroBackdrop";
 import { RegisterInterestButton } from "./lead/RegisterInterestButton";
 
 /**
- * Homepage hero (§7.1.2): full viewport, warm gold radial glow, staggered
- * eyebrow → headline → subhead → CTAs (~90ms stagger, §6 motion).
+ * Homepage hero: full viewport over crossfading Dubai landmark photography
+ * (white translucent veil), staggered eyebrow → headline → subhead → CTAs.
+ * Falls back to the gold-glow treatment when no photos are supplied.
  */
-export function HomeHero() {
+export function HomeHero({
+  images = [],
+}: {
+  images?: { src: string; alt: string }[];
+}) {
   const t = useTranslations();
   const reducedMotion = useReducedMotion();
 
@@ -20,7 +26,8 @@ export function HomeHero() {
 
   return (
     <section className="hero-glow relative flex min-h-svh items-center">
-      <div className="container-gate pt-28 pb-24 md:pt-32">
+      <HeroBackdrop images={images} />
+      <div className="container-gate relative pt-28 pb-24 md:pt-32">
         <motion.div
           initial="hidden"
           animate="show"

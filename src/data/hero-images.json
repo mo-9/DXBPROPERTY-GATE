@@ -1,0 +1,13 @@
+{
+  "$comment": "Landmark photography for the homepage hero + gallery strip. Drop real, licensed photos into public/img/dubai/ using these filenames — entries whose file is missing are skipped automatically at build time. Order matters: first existing image leads the hero slideshow.",
+  "images": [
+    { "src": "/img/dubai/burj-khalifa-night.jpg", "altEn": "Burj Khalifa and Downtown Dubai illuminated at night", "altAr": "برج خليفة ووسط مدينة دبي مضاءً ليلًا", "night": true },
+    { "src": "/img/dubai/burj-al-arab.jpg", "altEn": "Burj Al Arab on the Jumeirah shoreline", "altAr": "برج العرب على شاطئ جميرا", "night": false },
+    { "src": "/img/dubai/palm-jumeirah-aerial.jpg", "altEn": "Aerial view of Palm Jumeirah", "altAr": "منظر جوي لنخلة جميرا", "night": false },
+    { "src": "/img/dubai/dubai-marina-night.jpg", "altEn": "Dubai Marina towers lit up at night", "altAr": "أبراج دبي مارينا مضاءة ليلًا", "night": true },
+    { "src": "/img/dubai/burj-khalifa-day.jpg", "altEn": "Burj Khalifa rising over Downtown Dubai", "altAr": "برج خليفة يعلو وسط مدينة دبي", "night": false },
+    { "src": "/img/dubai/burj-al-arab-night.jpg", "altEn": "Burj Al Arab illuminated at night", "altAr": "برج العرب مضاءً ليلًا", "night": true },
+    { "src": "/img/dubai/dubai-skyline-night.jpg", "altEn": "Dubai skyline along Sheikh Zayed Road at night", "altAr": "أفق دبي على شارع الشيخ زايد ليلًا", "night": true },
+    { "src": "/img/dubai/dubai-creek-harbour.jpg", "altEn": "Dubai Creek Harbour skyline at sunset", "altAr": "أفق خور دبي عند الغروب", "night": false }
+  ]
+}

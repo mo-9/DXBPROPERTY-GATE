@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="">
   <defs>
     <radialGradient id="glow" cx="50%" cy="0%" r="90%">
-      <stop offset="0%" stop-color="#C6A15B" stop-opacity="0.22"/>
-      <stop offset="45%" stop-color="#96773C" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#0F0D0A" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#C6A15B" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#C6A15B" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#FAF7F2" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#1E1813"/>
-      <stop offset="100%" stop-color="#0F0D0A"/>
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F2EDE3"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="900" fill="url(#base)"/>
   <rect width="1600" height="900" fill="url(#glow)"/>
-  <g stroke="#3A2F22" stroke-width="1.5" fill="none" opacity="0.85">
+  <g stroke="#D3C6AE" stroke-width="1.5" fill="none" opacity="0.9">
     <path d="M240 900 V520 h130 V900"/>
     <path d="M430 900 V380 h150 V900"/>
     <path d="M640 900 V260 h120 V900"/>
@@ -21,6 +21,6 @@
     <path d="M1240 900 V560 h140 V900"/>
     <path d="M700 260 l60 -90 60 90"/>
   </g>
-  <rect x="24" y="24" width="1552" height="852" fill="none" stroke="#2C241B" stroke-width="2"/>
-  <circle cx="800" cy="140" r="42" fill="none" stroke="#C6A15B" stroke-opacity="0.5" stroke-width="1.5"/>
+  <rect x="24" y="24" width="1552" height="852" fill="none" stroke="#E6DDCD" stroke-width="2"/>
+  <circle cx="800" cy="140" r="42" fill="none" stroke="#9C7C3C" stroke-opacity="0.5" stroke-width="1.5"/>
 </svg>

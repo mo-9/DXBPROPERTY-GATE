@@ -10,6 +10,8 @@ import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Ticker } from "@/components/Ticker";
 import { developers, featuredProjects } from "@/lib/data";
+import { heroAlt, heroImages } from "@/lib/heroImages";
+import { LandmarkStrip } from "@/components/LandmarkStrip";
 
 // Curated strip (§7.1.6): the dataset flags many flagships; the homepage
 // shows the first six in index order to stay a strip, not a grid dump.
@@ -40,9 +42,16 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <>
-      <HomeHero />
+      <HomeHero
+        images={heroImages.map((img) => ({
+          src: img.src,
+          alt: heroAlt(img, locale),
+        }))}
+      />
 
       <Ticker />
+
+      <LandmarkStrip />
 
       <MarketStrip />
 

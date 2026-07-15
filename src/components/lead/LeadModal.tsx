@@ -156,7 +156,7 @@ export function LeadModal({ isOpen, source, getPageContext, onClose }: Props) {
         >
           {/* Dimmed backdrop — click to close */}
           <div
-            className="absolute inset-0 bg-black/70"
+            className="absolute inset-0 bg-black/35 backdrop-blur-sm"
             onClick={onClose}
             aria-hidden="true"
           />

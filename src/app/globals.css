@@ -1,20 +1,22 @@
 @import "tailwindcss";
 
 /* ------------------------------------------------------------------ */
-/* Design tokens — §6 (dark luxury, warm espresso base, champagne gold) */
+/* Design tokens — light luxury: warm ivory base, translucent white     */
+/* surfaces (glass), champagne-gold accent, espresso ink.               */
+/* (Client-directed light rework of the original §6 dark palette.)      */
 /* ------------------------------------------------------------------ */
 :root {
-  --bg: #0f0d0a;
-  --surface: #17130f;
-  --surface-2: #1e1813;
-  --line: #2c241b;
-  --line-strong: #3a2f22;
-  --text: #f4eee3;
-  --text-dim: #b6a587;
-  --text-mute: #7c6e58;
-  --gold: #c6a15b;
-  --gold-bright: #dfc183;
-  --gold-deep: #96773c;
+  --bg: #faf7f2;
+  --surface: #ffffff;
+  --surface-2: #f2ede3;
+  --line: #e6ddcd;
+  --line-strong: #d3c6ae;
+  --text: #201a12;
+  --text-dim: #6f6049;
+  --text-mute: #9a8a6f;
+  --gold: #9c7c3c;
+  --gold-bright: #b6944f;
+  --gold-deep: #7a5f2c;
 
   /* Active font stacks — swapped per locale below */
   --ff-display: var(--font-bodoni), "Bodoni MT", Didot, "Times New Roman", serif;
@@ -68,7 +70,7 @@ body {
 
 ::selection {
   background: var(--gold-deep);
-  color: var(--text);
+  color: #fff;
 }
 
 /* Gold focus ring — §11 WCAG AA keyboard visibility */
@@ -119,16 +121,24 @@ body {
   color: var(--text);
 }
 
-/* One warm radial glow behind the hero — nothing else glows (§6) */
+/* One warm radial glow behind page heros — nothing else glows */
 @utility hero-glow {
   background:
     radial-gradient(
       52rem 32rem at 50% -4rem,
-      rgb(198 161 91 / 0.14),
-      rgb(198 161 91 / 0.05) 45%,
+      rgb(198 161 91 / 0.18),
+      rgb(198 161 91 / 0.06) 45%,
       transparent 70%
     ),
     var(--bg);
+}
+
+/* Translucent white glass panel — the light theme's signature surface */
+@utility glass {
+  background: rgb(255 255 255 / 0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgb(255 255 255 / 0.55);
 }
 
 @utility hairline {

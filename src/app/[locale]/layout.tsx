@@ -20,8 +20,8 @@ export function generateStaticParams() {
 }
 
 export const viewport: Viewport = {
-  themeColor: "#0F0D0A",
-  colorScheme: "dark",
+  themeColor: "#FAF7F2",
+  colorScheme: "light",
 };
 
 export const metadata: Metadata = {

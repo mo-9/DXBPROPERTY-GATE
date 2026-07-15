@@ -39,10 +39,10 @@ export async function renderOgImage({
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "72px 80px",
-          backgroundColor: "#0F0D0A",
+          backgroundColor: "#FAF7F2",
           backgroundImage:
-            "radial-gradient(800px 500px at 20% -10%, rgba(198,161,91,0.22), rgba(198,161,91,0.05) 50%, rgba(15,13,10,0) 75%)",
-          border: "16px solid #17130F",
+            "radial-gradient(800px 500px at 20% -10%, rgba(198,161,91,0.30), rgba(198,161,91,0.08) 50%, rgba(250,247,242,0) 75%)",
+          border: "16px solid #FFFFFF",
         }}
       >
         <div
@@ -51,7 +51,7 @@ export async function renderOgImage({
             fontSize: 26,
             letterSpacing: "0.18em",
             textTransform: "uppercase",
-            color: "#C6A15B",
+            color: "#9C7C3C",
           }}
         >
           {eyebrow}
@@ -61,7 +61,7 @@ export async function renderOgImage({
             fontFamily: "Bodoni Moda",
             fontSize: title.length > 34 ? 68 : 88,
             lineHeight: 1.05,
-            color: "#F4EEE3",
+            color: "#201A12",
             maxWidth: 1000,
           }}
         >
@@ -74,11 +74,11 @@ export async function renderOgImage({
             alignItems: "center",
             fontFamily: "JetBrains Mono",
             fontSize: 24,
-            color: "#B6A587",
+            color: "#6F6049",
           }}
         >
           <span>{footer ?? "Dubai, UAE"}</span>
-          <span style={{ color: "#C6A15B" }}>DXBPROPERTY GATE</span>
+          <span style={{ color: "#9C7C3C" }}>DXBPROPERTY GATE</span>
         </div>
       </div>
     ),

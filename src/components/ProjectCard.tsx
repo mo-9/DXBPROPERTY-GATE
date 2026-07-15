@@ -29,7 +29,7 @@ export async function ProjectCard({
             priority={priority}
             className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
           />
-          <span className="absolute start-4 top-4 border border-line bg-bg/80 px-2.5 py-1 font-mono text-[10px] tracking-[0.12em] text-sand uppercase backdrop-blur-sm">
+          <span className="absolute start-4 top-4 border border-white/50 bg-white/70 px-2.5 py-1 font-mono text-[10px] tracking-[0.12em] text-bone uppercase backdrop-blur-sm">
             {t(`project.statusValues.${project.status}`)}
           </span>
         </div>
