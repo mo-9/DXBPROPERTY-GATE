@@ -14,15 +14,7 @@ export function Header() {
   const t = useTranslations();
   const locale = useLocale();
   const pathname = usePathname();
-  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 8);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   // Close the mobile menu on navigation.
   useEffect(() => {
@@ -38,13 +30,8 @@ export function Header() {
   const otherLocale = locale === "en" ? "ar" : "en";
 
   return (
-    <header
-      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
-        scrolled || menuOpen
-          ? "border-b border-line bg-white/75 backdrop-blur-md"
-          : "border-b border-transparent bg-transparent"
-      }`}
-    >
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-line/70 bg-white/75 backdrop-blur-md">
+      {/* Always-glass header: stays legible over clear hero photography */}
       <div className="container-gate flex h-16 items-center justify-between gap-4 md:h-20">
         <Link
           href="/"
