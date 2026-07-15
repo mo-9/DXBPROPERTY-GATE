@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowUpRight } from "lucide-react";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CTABand } from "@/components/CTABand";
+import { DeveloperMark } from "@/components/DeveloperMark";
 import { JsonLd } from "@/components/JsonLd";
 import { ProjectCard } from "@/components/ProjectCard";
 import { Reveal } from "@/components/Reveal";
 import { LeadContext } from "@/components/lead/LeadContext";
 import { Link } from "@/i18n/navigation";
 import { developers, getDeveloper, relatedDevelopers } from "@/lib/data";
+import { resolveLogo } from "@/lib/logos";
 import { formatAED, formatNumber, padRank } from "@/lib/format";
 import { developerJsonLd } from "@/lib/jsonld";
 import { buildMetadata } from "@/lib/seo";
@@ -115,16 +116,7 @@ export default async function DeveloperPage({ params }: Props) {
                 <p className="mt-7 max-w-xl text-lg text-sand">{developer.headline}</p>
               )}
             </div>
-            <div className="relative aspect-[16/10] overflow-hidden border border-line">
-              <Image
-                src={developer.heroImage}
-                alt={developer.name}
-                fill
-                priority
-                sizes="(max-width: 1024px) 100vw, 40vw"
-                className="object-cover"
-              />
-            </div>
+            <DeveloperMark developer={developer} logo={resolveLogo(developer)} />
           </div>
         </div>
       </section>
