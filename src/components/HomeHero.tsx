@@ -66,9 +66,11 @@ export function HomeHero({
           <motion.p
             variants={item}
             transition={{ duration: 0.7, ease: "easeOut" }}
-            className={`mt-7 max-w-xl text-lg ${
-              photoMode ? "text-white/95" : "text-sand"
-            }`}
+            className={
+              photoMode
+                ? "shine-text mt-7 max-w-2xl font-display text-3xl italic md:text-5xl"
+                : "mt-7 max-w-xl text-lg text-sand"
+            }
           >
             {t("hero.subhead")}
           </motion.p>
