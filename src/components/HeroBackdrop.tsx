@@ -44,9 +44,9 @@ export function HeroBackdrop({ images }: { images: BackdropImage[] }) {
           }`}
         />
       ))}
-      {/* Translucent white veil — lighter wash so the photography shows through */}
-      <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-white/30 to-bg" />
-      <div className="absolute inset-0 bg-gradient-to-r from-white/60 via-white/15 to-transparent rtl:bg-gradient-to-l" />
+      {/* Translucent white veil — minimal wash, photography leads */}
+      <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/15 to-bg" />
+      <div className="absolute inset-0 bg-gradient-to-r from-white/45 via-white/10 to-transparent rtl:bg-gradient-to-l" />
     </div>
   );
 }
