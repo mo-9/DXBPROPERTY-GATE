@@ -237,7 +237,6 @@ export function LeadModal({ isOpen, source, getPageContext, onClose }: Props) {
                       inputMode="tel"
                       autoComplete="tel"
                       dir="ltr"
-                      defaultValue="+971 "
                       placeholder={t("phonePlaceholder")}
                       className={inputClass}
                       aria-invalid={Boolean(errors.phone)}

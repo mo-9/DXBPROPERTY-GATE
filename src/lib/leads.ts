@@ -58,8 +58,9 @@ export async function saveLead(lead: Lead): Promise<void> {
 /** Email via Resend (RESEND_API_KEY, LEAD_EMAIL_TO, LEAD_EMAIL_FROM). */
 async function notifyEmail(lead: Lead): Promise<void> {
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.LEAD_EMAIL_TO;
-  if (!apiKey || !to) return;
+  // Sales inbox — overridable via env, defaults to the site owner.
+  const to = process.env.LEAD_EMAIL_TO ?? "mohamedhammad1488@gmail.com";
+  if (!apiKey) return;
 
   const context = [
     lead.developerContext && `Developer: ${lead.developerContext}`,
@@ -75,7 +76,8 @@ async function notifyEmail(lead: Lead): Promise<void> {
       Authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify({
-      from: process.env.LEAD_EMAIL_FROM ?? "leads@dxbpropertygate.com",
+      // resend.dev sender works out of the box before a domain is verified
+      from: process.env.LEAD_EMAIL_FROM ?? "onboarding@resend.dev",
       to: to.split(","),
       subject: `New lead — ${lead.interest} (${lead.source})`,
       text: [
